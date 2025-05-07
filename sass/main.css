@@ -2765,7 +2765,7 @@ template {
     display: none;
   }
   .intro {
-    background-image: url(../../images/intro-bg-media.webp);
+    background-image: url(../../images/intro-bg-media.png);
     background-size: 100% 40%;
     padding-bottom: 95px;
   }

@@ -1,11 +1,10 @@
 @font-face {
-  font-family: 'Bestoom';
-  src: url(../../fonts/bestoom/BestoomBold.otf),
-    url(../../fonts/bestoom/BestoomBold.ttf);
+  font-family: "Bestoom";
+  src: url(../../fonts/bestoom/BestoomBold.otf), url(../../fonts/bestoom/BestoomBold.ttf);
   font-weight: 700;
 }
 @font-face {
-  font-family: 'Coolvetica';
+  font-family: "Coolvetica";
   src: url(../../fonts/coolvetica/CoolveticaRg.otf);
   font-weight: 400;
 }
@@ -46,7 +45,7 @@ span {
 }
 
 body {
-  font-family: 'Bestoom', sans-serif;
+  font-family: "Bestoom", sans-serif;
   font-weight: 700;
   color: #fff;
   background: #14110e;
@@ -82,7 +81,7 @@ body.no-scroll {
 }
 
 .sub__title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 25px;
   line-height: 41px;
@@ -99,15 +98,10 @@ body.no-scroll {
   overflow: hidden;
 }
 .shark-wrap::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: -20%;
-  background: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0) 40%,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0) 60%
-  );
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0) 60%);
   animation: shark-wrap 2.5s infinite;
   transform: translateX(-100%);
 }
@@ -290,9 +284,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
@@ -300,9 +294,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type='button']::-moz-focus-inner,
-[type='reset']::-moz-focus-inner,
-[type='submit']::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -311,9 +305,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type='button']:-moz-focusring,
-[type='reset']:-moz-focusring,
-[type='submit']:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -357,8 +351,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type='checkbox'],
-[type='radio'] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
@@ -366,8 +360,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type='number']::-webkit-inner-spin-button,
-[type='number']::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -375,7 +369,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type='search'] {
+[type=search] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -383,7 +377,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type='search']::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -434,7 +428,7 @@ template {
   overflow: hidden;
 }
 .footer::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -650px;
   left: 50%;
@@ -505,7 +499,7 @@ template {
   text-transform: uppercase;
 }
 .footer__content p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
@@ -520,7 +514,7 @@ template {
   gap: 68px;
 }
 .footer__content a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -533,7 +527,7 @@ template {
   text-decoration-skip-ink: auto;
 }
 .footer .copyright {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 25px;
@@ -789,14 +783,14 @@ template {
   z-index: 1;
 }
 .modal.referral__modal ul .left__text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 25px;
   line-height: 130%;
   color: #dac9ba;
 }
 .modal.referral__modal ul .list__text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 25px;
   line-height: 130%;
@@ -849,7 +843,7 @@ template {
   margin-top: 10px;
 }
 .modal.referral__modal .desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
@@ -887,7 +881,7 @@ template {
   display: inline;
 }
 .modal.referral__modal .top__rate p a::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 1px;
@@ -905,7 +899,7 @@ template {
 }
 .modal.referral__modal .copy__box span {
   width: 237px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
@@ -969,7 +963,7 @@ template {
   transform: skew(20deg);
 }
 .modal .copyright {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
@@ -987,7 +981,7 @@ template {
   z-index: 1;
 }
 .information__modal .modal__content::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -239px;
   left: 50%;
@@ -1002,7 +996,7 @@ template {
   color: #6ed664;
 }
 .information__modal .desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
@@ -1015,7 +1009,7 @@ template {
   color: #fff;
 }
 .information__modal .desc::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -1041,7 +1035,7 @@ template {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 400;
   font-size: 25px;
   line-height: 130%;
@@ -1085,7 +1079,7 @@ template {
 }
 .information__modal .bottom .span {
   color: #dac9ba;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 130%;
@@ -1120,14 +1114,14 @@ template {
   justify-content: space-between;
 }
 .information__modal .footer-box span {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
   color: #dac9ba;
 }
 .information__modal .footer-box .clear-btn {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 130%;
@@ -1142,7 +1136,7 @@ template {
   align-items: center;
 }
 .information__modal .bottom__text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
@@ -1169,7 +1163,7 @@ template {
 .referal__modal .referral-text {
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Inter';
+  font-family: "Inter";
 }
 .referal__modal .referral-text a {
   color: #007bff;
@@ -1310,7 +1304,7 @@ template {
   line-height: 57px;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Coolvetica';
+  font-family: "Coolvetica";
   color: #7c6f61;
 }
 .header__language-box:hover {
@@ -1448,7 +1442,7 @@ template {
   z-index: 1;
 }
 .header .nav__win-item::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -80px;
   left: 50%;
@@ -1630,7 +1624,7 @@ template {
   padding-bottom: 216px;
   z-index: 10;
   position: relative;
-  background: url(../../images/intro-bg.webp) no-repeat;
+  background: url(../../images/intro-bg.png) no-repeat;
   background-position: top center;
 }
 .intro .arrow-icon {
@@ -1839,7 +1833,7 @@ template {
   z-index: 2;
 }
 .intro__left::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 30%;
   left: 50%;
@@ -1864,7 +1858,7 @@ template {
   z-index: 3;
 }
 .intro__left-title {
-  font-family: 'Coolvetica', sans-serif;
+  font-family: "Coolvetica", sans-serif;
   font-weight: 400;
   font-size: 50px;
   line-height: 71px;
@@ -1993,7 +1987,7 @@ template {
   border-radius: 30px;
   width: 100%;
   padding: 25px;
-  background: url(../../images/intro-card-bg-2.webp) no-repeat;
+  background: url(../../images/intro-card-bg-2.png) no-repeat;
   overflow: hidden;
   background-size: cover;
   z-index: 1;
@@ -2037,7 +2031,7 @@ template {
   padding-right: 22px;
 }
 .intro__right .dynamite__text {
-  font-family: 'Coolvetica', sans-serif;
+  font-family: "Coolvetica", sans-serif;
   font-weight: 400;
   font-size: 25px;
   line-height: 100%;
@@ -2045,7 +2039,7 @@ template {
   position: relative;
 }
 .intro__right .dynamite__text::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -2058,7 +2052,7 @@ template {
   background: #ed1e24;
 }
 .intro__right .round__text {
-  font-family: 'Coolvetica', sans-serif;
+  font-family: "Coolvetica", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
@@ -2087,7 +2081,7 @@ template {
   position: relative;
 }
 .intro__right .listing-price__text {
-  font-family: 'Coolvetica', sans-serif;
+  font-family: "Coolvetica", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 100%;
@@ -2095,7 +2089,7 @@ template {
   color: #877d72;
 }
 .intro__right .listing-price .price-value {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 25px;
   line-height: 100%;
@@ -2112,7 +2106,7 @@ template {
   background: #28a14a;
   width: 76px;
   border-radius: 12px;
-  font-family: 'Inter';
+  font-family: "Inter";
   height: 33px;
   font-size: 13px;
   display: -webkit-box;
@@ -2192,7 +2186,7 @@ template {
   }
 }
 .intro__right-time-box span {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 100%;
@@ -2252,13 +2246,7 @@ template {
   box-shadow: 0 0 15px 2px #c9484a;
 }
 .intro__right .total__raised .price__progress.end__time .price__progress-line {
-  background: repeating-linear-gradient(
-    -65deg,
-    #612a2b 0px,
-    #612a2b 15px,
-    #c9484a 15px,
-    #c9484a 30px
-  );
+  background: repeating-linear-gradient(-65deg, #612a2b 0px, #612a2b 15px, #c9484a 15px, #c9484a 30px);
   border-radius: inherit;
   background-size: 5000%;
   animation: animatedBackground 300s linear infinite;
@@ -2281,13 +2269,7 @@ template {
   left: 0;
   width: 100%;
   height: 100%;
-  background: repeating-linear-gradient(
-    -65deg,
-    #7a823f 0px,
-    #7a823f 15px,
-    #a1a962 15px,
-    #a1a962 30px
-  );
+  background: repeating-linear-gradient(-65deg, #7a823f 0px, #7a823f 15px, #a1a962 15px, #a1a962 30px);
   border-radius: inherit;
   background-size: 5000%;
   animation: animatedBackground 300s linear infinite;
@@ -2686,8 +2668,7 @@ template {
 }
 
 @keyframes shakeTop {
-  0%,
-  100% {
+  0%, 100% {
     transform: translateY(0);
   }
   50% {
@@ -2867,7 +2848,7 @@ template {
   transform: translateX(-50%);
 }
 .earn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2887,7 +2868,7 @@ template {
   position: relative;
   width: 868px;
   margin: 0 auto;
-  background: url('../../images/chain-bg.webp') no-repeat;
+  background: url("../../images/chain-bg.webp") no-repeat;
   background-position: top center;
   height: 221px;
   display: flex;
@@ -2919,7 +2900,7 @@ template {
   margin-top: 15px;
 }
 .earn__info {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 30px;
   line-height: 46px;
@@ -3391,25 +3372,24 @@ template {
   display: flex;
   width: max-content;
   flex-wrap: nowrap;
-  animation: scroll var(--_animation-duration, 40s)
-    var(--_animation-direction, forwards) linear infinite;
+  animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
   gap: 1.5rem;
   margin-top: -8px;
 }
 
-.scroller[data-direction='left'] {
+.scroller[data-direction=left] {
   --_animation-direction: forwards;
 }
 
-.scroller[data-direction='right'] {
+.scroller[data-direction=right] {
   --_animation-direction: reverse;
 }
 
-.scroller[data-speed='fast'] {
+.scroller[data-speed=fast] {
   --_animation-duration: 5s;
 }
 
-.scroller[data-speed='slow'] {
+.scroller[data-speed=slow] {
   --_animation-duration: 10s;
 }
 
@@ -3485,16 +3465,13 @@ template {
   /* Kursor effekti */
 }
 .about .moo__soldier-box .line1 {
-  animation: typing 1.5s steps(16, end) forwards,
-    blink-caret 0.75s step-end infinite;
+  animation: typing 1.5s steps(16, end) forwards, blink-caret 0.75s step-end infinite;
 }
 .about .moo__soldier-box .line2 {
-  animation: typing 1.5s steps(17, end) 1.5s forwards,
-    blink-caret 0.75s step-end infinite 1.5s;
+  animation: typing 1.5s steps(17, end) 1.5s forwards, blink-caret 0.75s step-end infinite 1.5s;
 }
 .about .moo__soldier-box .line3 {
-  animation: typing 1.5s steps(7, end) 3s forwards,
-    blink-caret 0.75s step-end infinite 3s;
+  animation: typing 1.5s steps(7, end) 3s forwards, blink-caret 0.75s step-end infinite 3s;
 }
 @keyframes typing {
   from {
@@ -3505,8 +3482,7 @@ template {
   }
 }
 @keyframes blink-caret {
-  from,
-  to {
+  from, to {
     border-color: transparent;
   }
   50% {
@@ -3522,8 +3498,7 @@ template {
   }
 }
 @keyframes blink-caret {
-  from,
-  to {
+  from, to {
     border-color: transparent;
   }
   50% {
@@ -3565,7 +3540,7 @@ template {
   position: relative;
 }
 .about__box-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 22px;
   line-height: 33px;
@@ -3781,7 +3756,7 @@ template {
   text-transform: uppercase;
 }
 .about__slider-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 22px;
   line-height: 33px;
@@ -3863,7 +3838,7 @@ template {
   position: absolute;
   bottom: -41px;
   left: -174px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .roadmap__step {
   display: flex;
@@ -3879,7 +3854,7 @@ template {
   animation: coinFade 1.3s linear infinite alternate;
 }
 .roadmap__step-logo::before {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
   background: rgba(177, 171, 149, 0.3019607843);
@@ -3987,7 +3962,7 @@ template {
   color: #fff2b4;
 }
 .roadmap .step__content-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 33px;
@@ -4005,7 +3980,7 @@ template {
   margin-left: auto;
 }
 .roadmap .step__content-two li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 33px;
@@ -4022,7 +3997,7 @@ template {
   animation: fadeIn 2s ease-in-out forwards, pulse 3s ease-in-out infinite;
 }
 .roadmap .step__content-two li .img__box::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -4034,7 +4009,7 @@ template {
   z-index: -1;
 }
 .roadmap .step__content-two li .img__box::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -8px;
   left: 50%;
@@ -4054,8 +4029,7 @@ template {
   }
 }
 @keyframes pulse {
-  0%,
-  100% {
+  0%, 100% {
     transform: scale(1);
   }
   50% {
@@ -4267,7 +4241,7 @@ template {
   color: #fff2b4;
 }
 .moo__token-card-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 33px;
@@ -4334,7 +4308,7 @@ template {
   text-transform: uppercase;
   max-width: 1141px;
   margin: 49px auto 0 auto;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 46px;
@@ -4403,7 +4377,7 @@ template {
   z-index: 1;
 }
 .tokenomics .token__info::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 40px;
@@ -4414,7 +4388,7 @@ template {
   z-index: -1;
 }
 .tokenomics .token__info::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -18px;
   left: 50%;
@@ -4584,7 +4558,7 @@ template {
   min-height: 350px;
 }
 .tokenomics .token__info-right .card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   width: 100%;
@@ -4596,7 +4570,7 @@ template {
   z-index: -2;
 }
 .tokenomics .token__info-right .card::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -12px;
   width: calc(100% - 14px);
@@ -4628,7 +4602,7 @@ template {
   white-space: nowrap;
 }
 .tokenomics .token__info-right .card__desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
@@ -4653,7 +4627,7 @@ template {
   text-align: center;
 }
 .tokenomics .moo__moon .moon__box::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 40%;
   left: 50%;
@@ -4666,8 +4640,7 @@ template {
   animation: blink 3s infinite alternate;
 }
 @keyframes blink {
-  0%,
-  100% {
+  0%, 100% {
     opacity: 1;
   }
   50% {
@@ -4768,7 +4741,7 @@ template {
   margin: 0 auto;
 }
 .staking .stakes__cards::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -4781,7 +4754,7 @@ template {
 }
 .staking .stake__card {
   position: relative;
-  background: url(../../images/stake__card-bg.webp) no-repeat;
+  background: url(../../images/stake__card-bg.png) no-repeat;
   background-size: cover;
   border-radius: 30px;
   padding: 56px 15px 54px 15px;
@@ -4816,7 +4789,7 @@ template {
   font-size: 24px;
 }
 .staking .stake__card-content span {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .staking .stake__card-status {
   position: absolute;
@@ -4837,7 +4810,7 @@ template {
   margin-top: 95px;
 }
 .staking .stake__info-bottom p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
@@ -4854,8 +4827,7 @@ template {
   animation: blink 1.5s infinite alternate;
 }
 @keyframes blink {
-  0%,
-  100% {
+  0%, 100% {
     opacity: 1;
   }
   50% {
@@ -4865,7 +4837,7 @@ template {
 .staking .moo__army {
   margin-top: 148px;
   padding-top: 76px;
-  background: url(../../images/moo-army-bg.webp) no-repeat;
+  background: url(../../images/moo-army-bg.png) no-repeat;
   background-size: 1876px 701px;
   text-align: center;
   background-position: top center;
@@ -5340,7 +5312,7 @@ template {
   transition: all 0.2s linear;
 }
 .faq .accordion__content {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
@@ -5355,7 +5327,7 @@ template {
   position: relative;
 }
 .faq .accordion__content::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -5478,7 +5450,7 @@ template {
 .social__media-sec {
   max-width: 1632px;
   margin: 0 auto;
-  background: url(../../images/social__media-bg.webp) no-repeat;
+  background: url(../../images/social__media-bg.png) no-repeat;
   background-size: cover;
   height: 860px;
   padding: 93px 0;
@@ -6173,12 +6145,10 @@ template {
     width: 104px;
     height: 78px;
   }
-  .about__box .box__border.right,
-  .about__box .box__border.bottom-right {
+  .about__box .box__border.right, .about__box .box__border.bottom-right {
     right: -30px;
   }
-  .about__box .box__border.left,
-  .about__box .box__border.bottom-left {
+  .about__box .box__border.left, .about__box .box__border.bottom-left {
     left: -30px;
   }
   .about .right__box {
@@ -6641,7 +6611,7 @@ template {
     display: none;
   }
   .header .nav::before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -6698,7 +6668,7 @@ template {
     align-items: center;
   }
   .nav__win-item.win-bg::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 214px;
     height: 40px;
@@ -6807,7 +6777,7 @@ template {
     margin-left: 0;
   }
   .intro {
-    background-image: url(../../images/intro-bg-media.webp);
+    background-image: url(../../images/intro-bg-media.png);
     background-size: 100% 40%;
     padding-bottom: 95px;
   }
@@ -8091,7 +8061,7 @@ template {
     justify-content: start;
     align-items: center;
     gap: 8px;
-    background: url(../../images/leaderboards-banner-media.webp) no-repeat;
+    background: url(../../images/leaderboards-banner-media.png) no-repeat;
     background-size: cover;
   }
   .earn .leaderboards__table .banner__content img {
@@ -8099,7 +8069,7 @@ template {
     display: none;
   }
   #referral-leaders .banner__content {
-    background: url(../../images/leaderboards-banner-2-media.webp) no-repeat;
+    background: url(../../images/leaderboards-banner-2-media.png) no-repeat;
     background-size: cover;
   }
   .earn .leaderboards__table-banner-title {
@@ -8632,8 +8602,7 @@ template {
     min-height: 246px;
     border-radius: 30px;
   }
-  .tokenomics .token__info-right .card::before,
-  .tokenomics .token__info-right .card::after {
+  .tokenomics .token__info-right .card::before, .tokenomics .token__info-right .card::after {
     border-radius: inherit;
   }
   .tokenomics .token__info-right .card::after {

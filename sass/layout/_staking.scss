@@ -60,19 +60,12 @@
       background: rgba(255, 57, 57, 0.6980392157);
       filter: blur(300px);
       z-index: -1;
-
-      // width: 144%;
-      // height: 170%;
-      // background: url(../../images/svet.webp) no-repeat;
-      // z-index: -1;
-      // background-size: 100% 100%;
-      // z-index: -1;
     }
   }
 
   .stake__card {
     position: relative;
-    background: url(../../images/stake__card-bg.webp) no-repeat;
+    background: url(../../images/stake__card-bg.png) no-repeat;
     background-size: cover;
     border-radius: 30px;
     padding: 56px 15px 54px 15px;
@@ -169,7 +162,7 @@
   .moo__army {
     margin-top: 148px;
     padding-top: 76px;
-    background: url(../../images/moo-army-bg.webp) no-repeat;
+    background: url(../../images/moo-army-bg.png) no-repeat;
     background-size: 1876px 701px;
     text-align: center;
     background-position: top center;

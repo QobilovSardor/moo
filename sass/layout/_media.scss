@@ -1290,7 +1290,7 @@
     margin-left: 0;
   }
   .intro {
-    background-image: url(../../images/intro-bg-media.webp);
+    background-image: url(../../images/intro-bg-media.png);
     background-size: 100% 40%;
     padding-bottom: 95px;
   }
@@ -2597,7 +2597,7 @@
     justify-content: start;
     align-items: center;
     gap: 8px;
-    background: url(../../images/leaderboards-banner-media.webp) no-repeat;
+    background: url(../../images/leaderboards-banner-media.png) no-repeat;
     background-size: cover;
     img {
       object-fit: cover;
@@ -2605,7 +2605,7 @@
     }
   }
   #referral-leaders .banner__content {
-    background: url(../../images/leaderboards-banner-2-media.webp) no-repeat;
+    background: url(../../images/leaderboards-banner-2-media.png) no-repeat;
     background-size: cover;
   }
   .earn .leaderboards__table-banner-title {
