@@ -801,5 +801,8 @@ function getNext3DayCycleTarget() {
 }
 
 
-const targetDate = getNext3DayCycleTarget();
-startCountdown(targetDate);
+// const targetDate = getNext3DayCycleTarget();
+// startCountdown(targetDate);
+// Set countdown to 59 minutes from now
+const countdownDate = new Date(new Date().getTime() + 59 * 60 * 1000); // 59 minutes from now
+startCountdown(countdownDate);
