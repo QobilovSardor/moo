@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Bestoom';
+  src: url(../../fonts/bestoom/BestoomBold.otf),
+    url(../../fonts/bestoom/BestoomBold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Coolvetica';
+  src: url(../../fonts/coolvetica/CoolveticaRg.otf);
+  font-weight: 400;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button {
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+a,
+span {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Bestoom', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background: #14110e;
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+.wrapper {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.container {
+  max-width: 1816px;
+  margin: 0 auto;
+}
+
+.title__text {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 51px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  span {
+    color: #ede0a2;
+  }
+}
+
+.sub__title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #8e7e6e;
+  span {
+    color: #fff;
+  }
+}
+
+.shark-wrap {
+  position: relative;
+  overflow: hidden;
+  &::after {
+    content: '';
+    position: absolute;
+    inset: -20%;
+    background: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0) 40%,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0) 60%
+    );
+    animation: shark-wrap 2.5s infinite;
+    transform: translateX(-100%);
+  }
+
+  @keyframes shark-wrap {
+    to {
+      transform: translateX(100%);
+    }
+  }
+}

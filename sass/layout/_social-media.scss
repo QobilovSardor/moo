@@ -1,0 +1,29 @@
+@use '../components/button' as btn;
+.social__media-sec {
+  max-width: 1632px;
+  margin: 0 auto;
+  background: url(../../images/social__media-bg.webp) no-repeat;
+  background-size: cover;
+  height: 860px;
+  padding: 93px 0;
+  border-radius: 40px;
+  &-box {
+    display: flex;
+    gap: 113px;
+    justify-content: space-between;
+    max-width: 1115px;
+    margin: 39px auto 0 auto;
+    a {
+      @include btn.skewed-button(#e72e36, 30px, 237px, 77px);
+      gap: 12px;
+      p {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        span {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

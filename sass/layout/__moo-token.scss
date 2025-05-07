@@ -1,0 +1,99 @@
+@use '../components/button' as btn;
+.moo__token {
+  .sub__title {
+    margin: 20px auto 146px auto;
+    max-width: 1141px;
+  }
+  &-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+    gap: 35px;
+    padding-bottom: 105px;
+    z-index: 2;
+    position: relative;
+    padding-left: 70px;
+    padding-right: 70px;
+    .card__line-1,
+    .card__line-2 {
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      width: 483px;
+      height: 163px;
+    }
+    .card__line-1 {
+      left: 22%;
+    }
+    .card__line-2 {
+      right: 18%;
+    }
+  }
+  &-card {
+    border-radius: 40px;
+    background: #28221d;
+    padding: 0 35px 73px 35px;
+    text-align: center;
+    min-height: 500px;
+    position: relative;
+    // max-width: 524px;
+    padding-top: 245px;
+
+    &-img {
+      height: 319px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      &.one {
+        top: -146px;
+        left: 0;
+        transform: none;
+        width: 458px;
+        height: 497px;
+      }
+      &.two {
+        top: -129px;
+        width: 424px;
+        height: 402px;
+      }
+      &.three {
+        top: -138px;
+        width: 102%;
+        height: auto;
+        left: -21px;
+        transform: none;
+      }
+    }
+    &-title {
+      font-size: 40px;
+      line-height: 51px;
+      letter-spacing: 0%;
+      color: #fff2b4;
+    }
+    &-desc {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+    }
+    &-number {
+      position: absolute;
+      bottom: -34px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 69px;
+      height: 69px;
+      border-radius: 50%;
+      background: #418469;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 100%;
+    }
+  }
+  .join__btn {
+    @include btn.skewed-button(#e72e36, 30px, 347px, 77px);
+    margin: 0 auto;
+  }
+}

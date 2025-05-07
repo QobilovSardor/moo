@@ -1,0 +1,161 @@
+@use '../components/button' as btn;
+
+.referral__levels {
+  background: url(../../images/referral-levels-bg.webp) no-repeat;
+  background-position: left -100px;
+  background-size: 100% 107%;
+  padding: 124px 0 80px 0;
+
+  position: relative;
+  z-index: 2;
+  &-title-box {
+    max-width: 1336px;
+    display: flex;
+    align-items: center;
+    margin: 49px auto 171px auto;
+    gap: 10px;
+  }
+
+  &-swiper {
+    &-line {
+      position: relative;
+      top: 2px;
+      width: 105%;
+    }
+  }
+
+  .swiper-slide {
+    &:nth-child(2) {
+      .referral__levels-img-box {
+        transform: translateX(-47px);
+      }
+    }
+
+    &:nth-child(3) {
+      .referral__levels-img-box {
+        transform: translateX(-97px);
+      }
+    }
+
+    &:nth-child(4) {
+      .referral__levels-img-box {
+        transform: translateX(-147px);
+      }
+    }
+
+    &:nth-child(5) {
+      .referral__levels-img-box {
+        transform: translateX(-200px);
+      }
+    }
+
+    &:nth-child(6) {
+      .referral__levels-img-box {
+        transform: translateX(-255px);
+      }
+    }
+
+    &:nth-child(7) {
+      .referral__levels-img-box {
+        transform: translateX(-308px);
+      }
+    }
+  }
+
+  &-img-box {
+    position: relative;
+
+    .but__token-btn {
+      @include btn.skewed-button(inherit, 30px, 287px, 77px);
+      color: #14110e;
+      position: absolute;
+      bottom: 42px;
+      left: 81px;
+    }
+
+    &.one {
+      .slide__count,
+      .but__token-btn {
+        background: #d7cb92;
+      }
+    }
+
+    &.two {
+      .slide__count,
+      .but__token-btn {
+        background: #a9d691;
+      }
+    }
+
+    &.three {
+      .slide__count,
+      .but__token-btn {
+        background: #e8a796;
+      }
+    }
+
+    &.four {
+      .slide__count,
+      .but__token-btn {
+        background: #d3d05b;
+      }
+    }
+
+    &.five {
+      .slide__count,
+      .but__token-btn {
+        background: #87d67f;
+      }
+    }
+
+    &.six {
+      .slide__count,
+      .but__token-btn {
+        background: #5abdc2;
+      }
+    }
+
+    &.seven {
+      .slide__count,
+      .but__token-btn {
+        background: #839de8;
+      }
+    }
+
+    .slide__count {
+      width: 71px;
+      height: 71px;
+      border-radius: 50%;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 51px;
+      letter-spacing: 0%;
+      text-align: center;
+      vertical-align: middle;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: -56px;
+      left: 185px;
+      z-index: 4;
+    }
+
+    .paper__clamp {
+      position: absolute;
+      top: -75px;
+      left: 235px;
+      z-index: 1;
+    }
+
+    .swiper__img {
+      width: 702px;
+      height: 790px;
+    }
+  }
+}
+
+.referral__levels-slider {
+  position: relative;
+  z-index: 10;
+}

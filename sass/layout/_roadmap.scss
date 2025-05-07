@@ -1,0 +1,436 @@
+@use '../components/button' as btn;
+
+.roadmap {
+  position: relative;
+  z-index: 5;
+  padding-bottom: 204px;
+
+  .moo__coin-right {
+    position: absolute;
+    top: -38px;
+    right: -185px;
+    width: 517px;
+    height: 299px;
+    filter: blur(2.5px);
+    animation: floatUpDown 3s ease-in-out infinite alternate;
+  }
+
+  .moo__coin-left {
+    position: absolute;
+    top: 637px;
+    left: -152px;
+    filter: blur(2.5px);
+    animation: floatDownUp 3s ease-in-out infinite alternate;
+  }
+
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes floatDownUp {
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(20px);
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 22px 0 27px 0;
+
+    span {
+      color: #fff2b4;
+    }
+  }
+
+  .sub__title {
+    font-size: 30px;
+    line-height: 46px;
+    margin-bottom: 72px;
+  }
+
+  .frog__moo {
+    position: absolute;
+    bottom: -16px;
+    right: 106px;
+
+    &-img {
+      width: 192px;
+      height: 192px;
+    }
+
+    .desc {
+      width: 245px;
+      padding: 23px 28px;
+      border-radius: 30px 10px 30px 30px;
+      background: #fff;
+      font-size: 13px;
+      line-height: 21px;
+      color: #000;
+      position: absolute;
+      bottom: -41px;
+      left: -174px;
+      font-family: 'Inter', sans-serif;
+    }
+  }
+
+  &__step {
+    display: flex;
+    align-items: start;
+    gap: 98px;
+    padding: 0 45px 0 96px;
+    position: relative;
+
+    &-logo {
+      margin-top: 68px;
+      position: relative;
+      z-index: 1;
+      animation: coinFade 1.3s linear infinite alternate;
+
+      &::before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        background: #b1ab954d;
+        filter: blur(200px);
+        width: 397px;
+        height: 397px;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .step__img {
+        width: 630px;
+        height: 432px;
+        object-fit: contain;
+      }
+
+      .flash__img {
+        position: absolute;
+        bottom: -21px;
+        left: 195px;
+        width: 405px;
+        height: 243px;
+        filter: drop-shadow(-11px 1px 4px rgba(0, 100, 0, 0.7));
+      }
+    }
+  }
+
+  &__step-box {
+    width: 100%;
+    position: relative;
+
+    .coin {
+      position: absolute;
+      bottom: -50px;
+      right: -85px;
+      animation: coinFade 1.3s linear infinite alternate;
+    }
+  }
+
+  .step {
+    width: 779px;
+    margin-left: auto;
+    margin-right: 212px;
+
+    &__titles {
+      display: flex;
+      gap: 72px;
+      .step-dot {
+        position: absolute;
+        bottom: -32px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #14110e;
+        border: 4px solid #29241e;
+      }
+      .step__title {
+        font-size: 50px;
+        line-height: 51px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #29241e;
+        position: relative;
+        cursor: pointer;
+        &::before {
+          // content: '';
+          position: absolute;
+          bottom: -32px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          background: #14110e;
+          border: 4px solid #29241e;
+        }
+
+        &.active {
+          color: #fff;
+        }
+
+        &.show {
+          .step-dot {
+            border-color: #04b57f;
+          }
+          &::before {
+            border-color: #04b57f;
+          }
+        }
+      }
+    }
+
+    &__line {
+      width: 637px;
+      height: 2px;
+      background: #29241e;
+      margin: 21px auto 0 auto;
+
+      .line {
+        width: 0;
+        height: 100%;
+        background: #04b57f;
+      }
+    }
+  }
+
+  .step__content {
+    width: 100%;
+    margin-top: 47px;
+
+    &-title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 51px;
+      letter-spacing: 0%;
+      margin-bottom: 11px;
+      color: #fff2b4;
+    }
+    &-desc {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 33px;
+    }
+  }
+
+  .step__content-two {
+    padding: 44px 53px 73px 49px;
+    background: #28221d;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    max-width: 789px;
+    margin-top: 52px;
+    margin-left: auto;
+
+    li {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      .img__box {
+        width: 38px;
+        height: 71px;
+        position: relative;
+        z-index: 1;
+        opacity: 0;
+        animation: fadeIn 2s ease-in-out forwards, pulse 3s ease-in-out infinite;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: #1fb67c;
+          width: 38px;
+          height: 38px;
+          border-radius: 50%;
+          z-index: -1;
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: -8px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 14px;
+          height: 32px;
+          background: #eeb721;
+          filter: blur(30px);
+        }
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    .join__btn {
+      position: absolute;
+      bottom: -38px;
+      left: 50%;
+      transform: translateX(-50%) skew(-20deg) !important;
+      @include btn.skewed-button(#1fb67c, 30px, 287px, 77px);
+    }
+  }
+
+  .four__content {
+    .roadmap__step-logo {
+      margin-top: 0;
+    }
+  }
+
+  .step__contents {
+    position: relative;
+    padding-bottom: 180px;
+
+    .step__paginations {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      display: flex;
+      gap: 16px;
+      z-index: 2;
+
+      button {
+        width: 122px;
+        height: 122px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(../../images/social-bg.svg) no-repeat;
+        background-size: 100% 100%;
+        cursor: pointer;
+
+        &.disabled {
+          path {
+            stroke: #14110e;
+          }
+        }
+      }
+
+      svg {
+        width: 38px;
+        height: 33px;
+      }
+    }
+  }
+
+  .step-content {
+    display: none;
+    animation: fade 0.2s linear;
+
+    @keyframes fade {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 100;
+      }
+    }
+
+    &.show {
+      display: flex;
+    }
+  }
+
+  .road__box {
+    width: 781px;
+    height: 260px;
+    position: absolute;
+    top: 562px;
+    left: 12%;
+
+    .road__img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .number__img {
+      position: absolute;
+      width: 111px;
+      height: 184px;
+
+      &.one {
+        bottom: 63px;
+        left: 141px;
+      }
+
+      &.two {
+        bottom: 76px;
+        left: 284px;
+        width: 96px;
+        height: 152px;
+      }
+
+      &.three {
+        bottom: 85px;
+        left: 419px;
+        width: 73px;
+        height: 120px;
+      }
+
+      &.four {
+        bottom: 105px;
+        left: 583px;
+        width: 36px;
+        height: 88px;
+      }
+    }
+  }
+}
+
+@keyframes coinFade {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(15px);
+  }
+}

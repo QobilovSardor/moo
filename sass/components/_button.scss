@@ -1,0 +1,44 @@
+@mixin skewed-button(
+  $background: #42a1e5,
+  $font-size: 30px,
+  $width,
+  $height,
+  $skew-angle: -20deg,
+  $color: white
+) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: $background;
+  width: $width;
+  height: $height;
+  border: none;
+  cursor: pointer;
+  -webkit-transform: skew($skew-angle);
+  -ms-transform: skew($skew-angle);
+  transform: skew($skew-angle);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: $color;
+  font-size: $font-size;
+  line-height: $height;
+  text-align: center;
+  text-transform: uppercase;
+  &:hover {
+    transform: scale(1.1) skew($skew-angle);
+  }
+  span,
+  img {
+    display: inline-block;
+    -webkit-transform: skew(#{$skew-angle * -1});
+    -ms-transform: skew(#{$skew-angle * -1});
+    transform: skew(#{$skew-angle * -1});
+  }
+}

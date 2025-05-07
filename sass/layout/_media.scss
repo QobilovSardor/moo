@@ -1,0 +1,4408 @@
+@media (min-width: 1024px) {
+  .tokenomics .container {
+    margin-bottom: 100px;
+  }
+  .footer__left {
+    margin-left: -100px;
+  }
+}
+@media (max-width: 1900px) {
+  .tokenomics__banner-info {
+    left: 200px;
+  }
+}
+@media (max-width: 1794px) {
+  .tokenomics__banner-info {
+    left: 180px;
+  }
+}
+@media (max-width: 1700px) {
+  .tokenomics__banner-info {
+    left: 120px;
+  }
+}
+
+// modal==========================================
+@media (min-width: 960px) {
+  .modal .visible__content {
+    max-width: 506px;
+  }
+  .modal__content {
+    max-width: 506px;
+    padding: 64px 53px;
+    border-radius: 25px;
+    height: 777px;
+    min-height: auto;
+    background-size: 100% 326px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modal.wallet__modal .modal__content {
+    padding-top: 34px;
+  }
+  .information__modal .desc {
+    font-size: 12px;
+  }
+  .modal__title {
+    font-size: 35px;
+    line-height: 51px;
+  }
+  .modal .select__btns {
+    margin: 28px 0 19px 0;
+  }
+  .modal .mainnet {
+    gap: 7px;
+    span {
+      font-size: 25px;
+      line-height: 51px;
+    }
+  }
+  .modal .select__btn {
+    width: 196px;
+    height: 65px;
+    font-size: 25px;
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  .modal .coins__box .img__box {
+    width: 42px;
+    height: 42px;
+  }
+  .modal .coins__box {
+    padding: 15px;
+  }
+  .modal .coins__box h3 {
+    font-size: 25px;
+    min-width: 55px;
+  }
+  .modal .coins__box h4 {
+    margin-left: 0;
+  }
+  .modal.referral__modal .modal__content {
+    padding: 37px 40px;
+  }
+  .modal.referral__modal .modal__sub-title {
+    font-size: 25px;
+  }
+  .modal.referral__modal ul .left__text,
+  .modal.referral__modal ul .list__text {
+    font-size: 18px;
+  }
+  .modal.referral__modal ul .none {
+    padding: 5px 12px;
+  }
+  .modal.referral__modal ul .upgrate__btn {
+    width: 138px;
+    height: 43px;
+    font-size: 10px;
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  .modal.referral__modal .earn__text {
+    font-size: 25px;
+  }
+  .modal.referral__modal .desc,
+  .modal.referral__modal .copy__box span {
+    font-size: 12px;
+  }
+  .modal.referral__modal .top__rate p {
+    font-size: 20px;
+  }
+  .modal.referral__modal .copy__box {
+    padding: 13px 0 13px 24px;
+    span {
+      width: 162px;
+    }
+  }
+  .modal.referral__modal .copy__btn-modal {
+    width: 103px;
+    height: 106%;
+    font-size: 25px;
+  }
+  .modal .connect__wallet-btn {
+    font-size: 20px;
+  }
+  .modal .copyright {
+    font-size: 9px;
+    text-align: center;
+    display: block;
+  }
+  .modal.referral__modal .top__rate {
+    padding: 15px 0;
+  }
+  .information__modal .title-modal {
+    font-size: 25px;
+    line-height: 51px;
+  }
+  .information__modal .banner .top {
+    gap: 20px;
+  }
+  .information__modal ul li {
+    font-size: 18px;
+  }
+  .information__modal .bottom h5 {
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  .information__modal .banner {
+    padding: 17px 25px;
+  }
+  .information__modal .bottom__text {
+    font-size: 12px;
+  }
+  .modal .close__modal {
+    right: -60px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .information__modal .footer-box .clear-btn {
+    height: 45px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 960px) {
+  .modal .visible__content {
+    max-width: 506px;
+  }
+  .information__modal .bottom__text {
+    font-size: 12px;
+  }
+  .modal .close__modal {
+    right: -60px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .information__modal .footer-box .clear-btn {
+    height: 45px;
+    font-size: 13px;
+  }
+  .information__modal .banner .top {
+    gap: 20px;
+  }
+  .information__modal .banner {
+    padding: 17px 25px;
+  }
+  .information__modal ul li {
+    font-size: 18px;
+  }
+  .information__modal .bottom h5 {
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  .wallet__modal {
+    .modal__content {
+      padding-top: 34px;
+    }
+  }
+  .information__modal .desc {
+    font-size: 12px;
+  }
+  .information__modal .title-modal {
+    font-size: 25px;
+    line-height: 51px;
+  }
+  .modal__content {
+    max-width: 506px;
+    padding: 64px 53px;
+    border-radius: 25px;
+    height: 777px;
+    min-height: auto;
+    background-size: 100% 326px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modal__title {
+    font-size: 35px;
+    line-height: 51px;
+  }
+  .modal .select__btns {
+    margin: 28px 0 19px 0;
+  }
+  .modal .mainnet {
+    gap: 7px;
+    span {
+      font-size: 25px;
+      line-height: 51px;
+    }
+  }
+  .modal .select__btn {
+    width: 196px;
+    height: 65px;
+    font-size: 25px;
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  .modal .coins__box .img__box {
+    width: 42px;
+    height: 42px;
+  }
+  .modal .coins__box {
+    padding: 15px;
+  }
+  .modal .coins__box h3 {
+    font-size: 25px;
+    min-width: 55px;
+  }
+  .modal .coins__box h4 {
+    margin-left: 0;
+  }
+  .modal.referral__modal .modal__content {
+    padding: 37px 40px;
+  }
+  .modal.referral__modal .modal__sub-title {
+    font-size: 25px;
+  }
+  .modal.referral__modal ul .left__text,
+  .modal.referral__modal ul .list__text {
+    font-size: 18px;
+  }
+  .modal.referral__modal ul .none {
+    padding: 5px 12px;
+  }
+  .modal.referral__modal ul .upgrate__btn {
+    width: 138px;
+    height: 43px;
+    font-size: 10px;
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  .modal.referral__modal .earn__text {
+    font-size: 25px;
+  }
+  .modal.referral__modal .desc,
+  .modal.referral__modal .copy__box span {
+    font-size: 12px;
+  }
+  .modal.referral__modal .top__rate p {
+    font-size: 20px;
+  }
+  .modal.referral__modal .copy__box {
+    padding: 13px 0 13px 24px;
+    span {
+      width: 162px;
+    }
+  }
+  .modal.referral__modal .copy__btn-modal {
+    width: 103px;
+    height: 106%;
+    font-size: 25px;
+  }
+  .modal .connect__wallet-btn {
+    font-size: 20px;
+  }
+  .modal .copyright {
+    font-size: 9px;
+    text-align: center;
+    display: block;
+  }
+  .modal.referral__modal .top__rate {
+    padding: 15px 0;
+  }
+}
+
+// modal========================================
+@media (max-width: 1850px) {
+  .container {
+    max-width: 1494px;
+  }
+  .roadmap .road__box {
+    left: 35px;
+  }
+  .header__container {
+    max-width: 100%;
+    margin: 0 40px;
+  }
+  .header .nav {
+    margin-left: 30px;
+  }
+  .header .nav__link,
+  .header .nav .referal__program-link {
+    font-size: 18px;
+  }
+  .header .nav__list {
+    gap: 28px;
+  }
+  .header .nav__win-item::before {
+    width: 66px;
+    height: 139px;
+    background-size: 100% 100%;
+  }
+  .nav__win-item {
+    margin-left: 10px;
+  }
+  .header .nav {
+    gap: 36px;
+  }
+  .header-logo {
+    height: 100px;
+    img {
+      height: 100%;
+    }
+  }
+  .header .nav .referal__program-img {
+    margin-bottom: 3px;
+    width: 112px;
+    height: 30px;
+  }
+  .header__right {
+    gap: 19px;
+  }
+  .intro__left-title {
+    font-size: 45px;
+    line-height: 71px;
+  }
+  .intro__left-logo {
+    img {
+      width: 231px;
+      height: 158px;
+    }
+  }
+  .intro__left .ethereum-btn {
+    width: 227px;
+    height: 47px;
+    font-size: 22px;
+  }
+  .intro__left .skewed-box {
+    height: 47px;
+  }
+  .intro__left .right-raketa {
+    width: 221px;
+    height: 162px;
+    right: -6px;
+    top: 481px;
+  }
+  .intro__left .left-raketa {
+    width: 256px;
+    left: 19px;
+    top: 299px;
+  }
+  .intro__container {
+    gap: 63px;
+  }
+  .intro .arrow-icon {
+    width: 142px;
+    top: 100px;
+  }
+  .intro__right .max-box {
+    width: 38px;
+    height: 27px;
+    font-size: 12px;
+  }
+  .intro__right .max__box-right {
+    width: 89px;
+    height: 40px;
+  }
+  .intro__right .buying__bonus .bonus__prosent {
+    width: 56px;
+    height: 56px;
+  }
+  .intro__container .question-cion {
+    bottom: 141px;
+    right: -34px;
+    img {
+      width: 50px;
+      height: 103px;
+    }
+  }
+  .intro__container .sale-bg {
+    width: 74px;
+    height: 73px;
+    bottom: 41px;
+    right: -45px;
+    transform: rotate(10deg);
+  }
+  .about__boxes {
+    padding: 0;
+  }
+  .about .front__chain {
+    left: -79px;
+    top: 399px;
+  }
+  .roadmap__step {
+    padding: 0;
+  }
+  .roadmap {
+    .container {
+      max-width: 100%;
+      margin: 0 66px 0 56px;
+    }
+  }
+  .roadmap .step-content {
+    gap: 30px;
+  }
+  .moo__token-cards {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .moo__token-cards .card__line-2 {
+    width: 440px;
+    right: 15%;
+    height: 142px;
+  }
+  .moo__token-cards .card__line-1 {
+    width: 440px;
+    left: 17%;
+    height: 142px;
+  }
+  .tokenomics .container {
+    max-width: 1598px;
+  }
+  .tokenomics .token__info::before {
+    width: 1410px;
+  }
+  .tokenomics .token__info-right .card__title {
+    font-size: 30px;
+    line-height: 51px;
+  }
+  .staking .stake__card {
+    width: 289px;
+    padding: 44px 12px;
+    height: 438px;
+  }
+  .staking .stake__card-img {
+    width: 250px;
+    height: 346px;
+  }
+}
+@media (max-width: 1730px) {
+  .roadmap .step__content {
+    margin-top: 47px;
+  }
+}
+@media (max-width: 1600px) {
+  .staking .steik__one {
+    width: 181px;
+    height: 193px;
+    left: -90px;
+  }
+  .staking .steik__two {
+    width: 466px;
+    height: 498px;
+    right: -302px;
+    top: 573px;
+  }
+  .title__text {
+    font-size: 60px;
+    line-height: 51px;
+  }
+  .future__listing-sub-title {
+    font-size: 35px;
+    margin: 0 0 33px 0;
+  }
+  .referral__levels {
+    padding: 92px 0 79px 0;
+  }
+  .future__listing-swiper {
+    height: 150px;
+  }
+  .future__listing-swiper img {
+    height: 100%;
+  }
+  .referral__levels-title-box {
+    max-width: 1102px;
+    margin: 12px auto 73px auto;
+    gap: 0;
+    img {
+      width: 68px;
+      height: 98px;
+    }
+  }
+  .moo__token-cards {
+    gap: 25px;
+  }
+  .sub__title {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .referral__levels-img-box .swiper__img {
+    width: 581px;
+    height: 654px;
+  }
+  .referral__levels-img-box .but__token-btn {
+    font-size: 27px;
+    width: 239px;
+    height: 63px;
+  }
+  .referral__levels-swiper-line {
+    top: -6px;
+  }
+  .referral__levels-img-box .slide__count {
+    width: 59px;
+    height: 59px;
+    font-size: 30px;
+    padding-top: 0;
+  }
+  .earn__title-box .title__content {
+    width: 100%;
+    height: 175px;
+    background: url(../../images/chain-bg-2.webp) no-repeat;
+    background-position: top center;
+  }
+  .earn .left__chain {
+    left: -156.5%;
+    top: -108px;
+    width: 1491px;
+    height: 723px;
+  }
+  .earn .right__chain {
+    top: -298px;
+    right: -137%;
+    height: 735px;
+    width: 1310px;
+  }
+  .earn__info {
+    margin: 26px auto 80px auto;
+    font-size: 20px;
+    line-height: 35px;
+    max-width: 700px;
+  }
+  .earn .leaderboards {
+    padding: 73px 55px 96px 73px;
+  }
+  .earn .leaderboards .title__text {
+    font-size: 80px;
+  }
+  .earn .leaderboards .sub__title {
+    font-size: 30px;
+  }
+  .earn .leaderboards__table-header {
+    margin-bottom: 10px;
+  }
+  .referral__levels-swiper {
+    display: none;
+  }
+  .referral__levels-slider {
+    width: 2730px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .swiper-box {
+      display: flex;
+      // min-width: 4083px;
+      width: 2730px;
+      white-space: nowrap;
+      margin-top: 60px;
+    }
+  }
+  .referral__levels-slider {
+    overflow-x: scroll; /* Mobilda scroll ishlashi kerak */
+    -webkit-overflow-scrolling: touch; /* iOS uchun yumshoq scroll */
+  }
+  .referral__levels-swiper-line {
+    top: 53px;
+    height: 14px;
+    width: 4083px;
+  }
+  .referral__levels-img-box .paper__clamp {
+    left: 194px;
+  }
+  .referral__levels-img-box .slide__count {
+    left: 150px;
+  }
+  .swiper-box .swiper-slider {
+    &:nth-child(2) {
+      transform: translateX(-39%);
+    }
+    &:nth-child(3) {
+      transform: translateX(-78%);
+    }
+    &:nth-child(4) {
+      transform: translateX(-117%);
+    }
+    &:nth-child(5) {
+      transform: translateX(-156%);
+    }
+    &:nth-child(6) {
+      transform: translateX(-195%);
+    }
+    &:nth-child(7) {
+      transform: translateX(-234%);
+    }
+  }
+  .about .left__box {
+    max-width: 609px;
+    padding: 70px 67px 62px 69px;
+  }
+  .about__box-desc {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .about__box .box__border {
+    width: 104px;
+    height: 78px;
+    &.right,
+    &.bottom-right {
+      right: -30px;
+    }
+    &.left,
+    &.bottom-left {
+      left: -30px;
+    }
+  }
+  .about .right__box {
+    padding: 67px 52px 66px 54px;
+    max-width: 545px;
+  }
+  .about__boxes {
+    justify-content: center;
+  }
+  .about__title {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 22px auto 22px auto;
+    max-width: 603px;
+  }
+
+  .about .sub__title {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .about .right__box .join__btn {
+    width: 242px;
+    height: 66px;
+    font-size: 25px;
+    bottom: -33px;
+  }
+  .about__slider {
+    padding-top: 124px;
+  }
+  .about .front__chain {
+    width: 772px;
+    height: 219px;
+    top: 335px;
+    left: -63px;
+  }
+  .about .left__box .back__chain {
+    width: 49px;
+    height: 100px;
+    left: -49px;
+    top: 252px;
+  }
+  .roadmap__step-logo .step__img {
+    width: 429px;
+    height: 356px;
+  }
+  .roadmap .step__content {
+    margin-top: 73px;
+  }
+  .roadmap__step-logo .flash__img {
+    width: 314px;
+    height: 188px;
+    bottom: -8px;
+    left: 109px;
+  }
+  .roadmap .road__box {
+    width: 762px;
+    height: 316px;
+    left: 0;
+  }
+  .roadmap .moo__coin-left {
+    width: 417px;
+    height: 241px;
+    left: -183px;
+  }
+  .roadmap__title {
+    font-size: 40px;
+    line-height: 63px;
+    margin: 22px 0 7px 0;
+  }
+  .roadmap .sub__title {
+    line-height: 46px;
+    font-size: 20px;
+    margin-bottom: 68px;
+  }
+  .roadmap .step__content-two {
+    width: 617px;
+    padding: 34px 38px 57px 38px;
+  }
+  .roadmap .step__content-two li {
+    font-size: 16px;
+    gap: 12px;
+    line-height: 33px;
+  }
+  .roadmap .step__content-two li .img__box {
+    width: 29px;
+    height: 55px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .roadmap .step__content-two li .img__box::before {
+    width: 29px;
+    height: 29px;
+  }
+  .roadmap .step__content-two .join__btn {
+    width: 225px;
+    font-size: 22px;
+    height: 60px;
+    bottom: -30px;
+  }
+  .roadmap__step-box .coin {
+    width: 245px;
+    height: 138px;
+    bottom: -52px;
+    right: -115px;
+  }
+  .roadmap .road__box .number__img.one {
+    width: 98px;
+    height: 163px;
+  }
+  .roadmap .road__box .number__img.two {
+    width: 85px;
+    height: 135px;
+    transform: rotate(7.39deg);
+    bottom: 85px;
+    left: 271px;
+  }
+  .roadmap .road__box .number__img.three {
+    width: 64px;
+    height: 106px;
+    bottom: 98px;
+    left: 394px;
+  }
+  .roadmap .road__box .number__img.four {
+    width: 32px;
+    height: 78px;
+    bottom: 123px;
+    left: 564px;
+  }
+  .roadmap .step {
+    margin-right: 235px;
+  }
+  .roadmap .moo__coin-right {
+    top: 90px;
+  }
+  .roadmap .frog__moo {
+    right: 56px;
+  }
+  .moo__token-card-desc {
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 10px;
+  }
+  .moo__token-card-img.one {
+    width: 416px;
+    height: 393px;
+  }
+  .moo__token-card {
+    padding: 220px 32px 66px 32px;
+  }
+  .moo__token-card-img.two {
+    width: 389px;
+    height: 389px;
+  }
+  .tokenomics__sub-title {
+    font-size: 25px;
+    line-height: 46px;
+    margin-top: 19px;
+  }
+  .tokenomics__banner-info {
+    left: 0;
+  }
+  .tokenomics .token__info-right-title,
+  .tokenomics .token__info-left-title {
+    font-size: 40px;
+    line-height: 63px;
+  }
+  .tokenomics .token__info-left-title {
+    margin: 0 46px 34px 0;
+  }
+  .tokenomics .token__info-right .card__desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .tokenomics .token__info-right .card {
+    padding: 19px 25px 26px 25px;
+    min-height: 302px;
+  }
+  .tokenomics .token__info-left-box-img {
+    width: 334px;
+    height: 335px;
+  }
+  .tokenomics .token__info-left-box {
+    width: 356px;
+    padding: 0 16px 29px 16px;
+  }
+  .tokenomics .token__info .token__list li {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .tokenomics .token__info-left-box .attention__text,
+  .tokenomics .token__info-left-box .token__text {
+    font-size: 15px;
+    line-height: 35px;
+  }
+  .tokenomics .token__info-left-box .token__text {
+    padding: 25px 16px 20px 16px;
+  }
+  .tokenomics .token__info-left-box .copy__btn {
+    width: 55px;
+    height: 55px;
+    top: -35px;
+    right: -8px;
+  }
+  .tokenomics .token__info-left-box .token__details {
+    width: 300px;
+    height: 66px;
+    font-size: 25px;
+  }
+  .tokenomics .token__info-left .arrow__img {
+    height: 90px;
+    top: 20px;
+    left: 60px;
+  }
+  .tokenomics .token__info-right-title {
+    margin-bottom: 34px;
+  }
+  .tokenomics .token__info-right .limited__supply-img {
+    width: 714px;
+    height: 180px;
+    bottom: -80px;
+  }
+  .tokenomics .moo__moon {
+    // max-width: 1331px;
+    max-width: 1200px;
+  }
+  .tokenomics .moo__moon-box-content {
+    font-size: 40px;
+    width: 288px;
+    height: 230px;
+  }
+  .tokenomics .moo__moon-img {
+    width: 484px;
+    height: 443px;
+  }
+  .tokenomics .moo__moon .moon__box img {
+    width: 165px;
+    height: 165px;
+  }
+  .tokenomics .moo__moon .moon__box .hashtag {
+    font-size: 35px;
+    margin-top: 120px;
+  }
+  .tokenomics .moo__moon-box {
+    transform: translateX(50px) !important;
+  }
+  .tokenomics .moo__moon-box.right__box {
+    transform: translateX(-50px) !important;
+  }
+
+  .staking .recipe {
+    height: 940px;
+  }
+  .staking .stove__box .stove__img {
+    height: 100%;
+    width: 1628px;
+    margin: 0 auto;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+  }
+  .staking .sub__title {
+    font-size: 25px;
+    line-height: 46px;
+    margin-top: 9px;
+  }
+  .staking .recipe__img {
+    width: 94px;
+    height: 102px;
+  }
+  .staking .recipe__boxes {
+    margin-top: -15px;
+  }
+  .staking .stake__card-content {
+    height: 83px;
+  }
+  .staking .stakes__cards {
+    // flex-wrap: wrap;
+    margin-top: 70px;
+    row-gap: 55px;
+  }
+  .staking .stake__card {
+    margin-top: 0;
+    // width: 218px;
+    flex: 1 1 218px;
+    &-img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .staking .stake__info-bottom {
+    margin-top: 61px;
+  }
+  .staking {
+    padding-bottom: 130px;
+  }
+  .faq__img-box {
+    width: 862px;
+    height: auto;
+    top: 0;
+  }
+  .faq__container {
+    margin: 62px 78px 0 78px;
+    max-width: 100%;
+  }
+  .social__media-sec {
+    max-width: 100%;
+    margin: 0 80px;
+    background-position: center;
+    padding: 82px 0 0 0;
+    height: 752px;
+  }
+  .social__media-sec-box a {
+    width: 209px;
+    height: 67px;
+    font-size: 25px;
+  }
+  .social__media-sec-box {
+    gap: 99px;
+  }
+  .footer .flex__box {
+    padding-right: 78px;
+  }
+  .footer__left img {
+    width: 500px;
+    height: 500px;
+  }
+  .footer__left {
+    margin-left: 0;
+  }
+  .footer__left .moo__content {
+    width: 360px;
+    font-size: 18px;
+    padding: 10px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 69px;
+    right: unset;
+    left: 290px;
+  }
+  .footer .flex__box {
+    gap: 0;
+  }
+  .footer__logo {
+    width: 220px;
+    height: 240px;
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+  }
+  .footer__content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .footer__content {
+    max-width: 571px;
+  }
+  .footer__top-arrow {
+    bottom: 53px;
+    right: 78px;
+    width: 74px;
+    height: 74px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .intro__container {
+    gap: 20px;
+  }
+  .intro__container .question-cion {
+    right: -23px;
+  }
+  .intro__container .sale-bg {
+    right: -20px;
+  }
+  .roadmap .step__contents .step__paginations {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -62px;
+    justify-content: center;
+  }
+  .roadmap .step__contents {
+    padding-bottom: 0;
+  }
+  .roadmap .step__contents .step__paginations button {
+    width: 91px;
+    height: 91px;
+  }
+  .roadmap .step-content {
+    margin-top: 100px;
+  }
+  .tokenomics .token__info::before {
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90%;
+    width: calc(100% - 68px);
+  }
+  .faq .question-1 {
+    top: 235px;
+    left: 164px;
+    width: 110px;
+  }
+  .faq .question-3 {
+    top: 162px;
+    right: 222px;
+    width: 107px;
+    height: auto;
+  }
+  .faq .question-2 {
+    top: 389px;
+    left: 98px;
+    width: 97px;
+    height: auto;
+  }
+}
+@media (min-width: 1600px) {
+  .referral__levels-slider {
+    display: none;
+    .swiper-box {
+      display: flex;
+      align-items: start;
+    }
+  }
+}
+@media (max-width: 1500px) {
+  .container {
+    max-width: 100%;
+    margin: 0 40px;
+  }
+  .header__container {
+    max-width: 100%;
+    margin: 0 40px;
+  }
+  .intro__right .listing-price {
+    margin-right: -6px;
+  }
+  .header__container {
+    margin: 0 20px;
+  }
+  .intro .social__media-box > img {
+    width: 38px;
+    height: 38px;
+  }
+  .media-none__item {
+    display: none;
+  }
+  .media-block__item {
+    display: block;
+  }
+  .header .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    margin: 0;
+    left: 0;
+    transition: all 0.1s ease-in;
+    padding: 0 0 24px 10px;
+    overflow: hidden;
+    background: #14110ee5;
+    display: none;
+    &::before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(30px);
+      top: 0;
+      left: 0;
+    }
+    &.show {
+      display: block;
+    }
+    .blue__btn {
+      width: 198px;
+      display: flex !important;
+    }
+    .scroll-box {
+      height: 90vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      margin-top: 110px;
+      padding-bottom: 30px;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+  .nav .flex__box,
+  .header .close__nav,
+  .header .header__block {
+    padding-right: 10px;
+  }
+  .nav__win-item {
+    background: none;
+    &::before {
+      display: none;
+    }
+  }
+  .nav__win-item.win-bg {
+    position: relative;
+    z-index: 1;
+    width: 214px;
+    height: 40px;
+    background: url(../../images/win-bg.svg) no-repeat;
+    background-size: 100% 100%;
+    display: block !important;
+    a {
+      font-size: 22px !important;
+      color: #fff !important;
+      width: 100%;
+      height: 100%;
+      margin-left: -22px;
+      padding-left: 22px;
+      display: flex;
+      align-items: center;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      width: 214px;
+      height: 40px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -22px;
+      background: url(../../images/win-bg.svg) no-repeat;
+      background-size: 100% 100%;
+      display: block !important;
+      z-index: -1;
+    }
+  }
+  .header .media__block-item {
+    display: block;
+    a {
+      text-decoration: none;
+      color: #b2a495;
+    }
+  }
+  .header .nav__win-item a {
+    color: #b2a495;
+    text-decoration: none;
+  }
+  .header {
+    .gold__item {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      a:hover {
+        color: #b2a495;
+      }
+      a:not(.odiy-sarlavha-link) {
+        &:hover {
+          color: #b2a495 !important;
+        }
+      }
+    }
+    .close__nav {
+      display: block;
+      position: relative;
+      top: 19px;
+      right: 22px;
+      margin-left: auto;
+    }
+  }
+  .header .child__item {
+    margin-top: -10px;
+    gap: 7px;
+    padding-left: 8px;
+    a {
+      color: #b2a495;
+      font-size: 13px;
+    }
+  }
+  .nav .flex__box {
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .header__block {
+    display: flex;
+    gap: 28px;
+    position: unset;
+    transform: unset;
+    margin-top: 44px;
+    flex-direction: column-reverse;
+    .white__paper-img {
+      margin: 0 auto;
+      display: block;
+      transform: translateX(15px);
+    }
+    .social__media {
+      justify-content: center;
+    }
+  }
+  .header .nav .referal__program {
+    display: none;
+  }
+  .header .nav__logo {
+    display: block;
+    height: 401px;
+    width: 150px;
+  }
+  .header .nav__link,
+  .header .nav .referal__program-link {
+    font-size: 22px;
+  }
+  .header .nav__list {
+    gap: 23px;
+  }
+  .header .dropdown {
+    width: 173px;
+  }
+  .header .dropdown.active {
+    z-index: 100;
+  }
+  .header .logo-box,
+  .header__right {
+    position: relative;
+    z-index: 200;
+  }
+  .header .menu__btn {
+    display: flex;
+  }
+  .header .nav__list {
+    flex-direction: column;
+    align-items: start;
+  }
+  .header .nav__win-item {
+    margin-left: 0;
+  }
+  .intro {
+    background-image: url(../../images/intro-bg-media.webp);
+    background-size: 100% 40%;
+    padding-bottom: 95px;
+  }
+  .intro__left-title {
+    font-size: 35px;
+    line-height: 71px;
+  }
+  .intro__left-logo img {
+    width: 165px;
+    height: 113px;
+  }
+  .intro__left .ethereum-btn {
+    width: 176px;
+    height: 39px;
+    font-size: 18px;
+  }
+  .intro__left .skewed-box {
+    height: 39px;
+  }
+  .intro__container {
+    justify-content: center;
+    // flex-direction: column;
+  }
+  .intro__right-parent {
+    margin: 0 0 0 auto;
+  }
+  .intro__left {
+    height: 490px;
+    margin-top: 20px;
+  }
+  .intro__left-logo {
+    justify-content: center;
+  }
+  .intro .arrow-icon {
+    top: 790px;
+    width: 100px;
+    display: none;
+  }
+  .header {
+    padding-top: 29px;
+  }
+  .intro__left .mooarmy-logo {
+    top: 108px;
+  }
+  .intro__left .moo-group {
+    width: 840px;
+    height: 784px;
+    top: -42px;
+  }
+  .intro__left .right-raketa {
+    right: -21px;
+    top: 423px;
+  }
+  .intro__left .left-raketa {
+    top: 257px;
+  }
+  .intro .intro__left-bottom {
+    &.media__none {
+      display: none;
+    }
+    &.media__block {
+      display: flex;
+      position: unset;
+      transform: none;
+      margin-top: 118px;
+      flex-direction: column;
+      gap: 0;
+      justify-content: center;
+      max-width: 558px;
+      margin: 118px auto 0 auto;
+      align-items: center;
+    }
+  }
+  .intro .social__media {
+    margin-top: 0;
+  }
+  .intro .social__media-box {
+    width: 83px;
+    height: 83px;
+
+    .social__media-img {
+      width: 38px;
+      height: 38px;
+    }
+    img {
+      width: 17px;
+    }
+    & > img {
+      width: 48px;
+    }
+  }
+  .intro__right .connect__wallet-btn {
+    span {
+      padding-top: 3px;
+    }
+  }
+  .referral__levels-img-box .swiper__img {
+    width: 581px;
+    height: 654px;
+  }
+  .earn .leaderboards {
+    max-width: calc(100% - 22px);
+    border-radius: 15px;
+  }
+  .roadmap .step-content {
+    margin-top: 100px;
+  }
+
+  .roadmap .step {
+    margin: 0 auto;
+  }
+  .intro .white__paper-img {
+    margin-left: 28px;
+  }
+  .intro .intro-logo .back {
+    width: 165px;
+    height: 113px;
+  }
+  .intro .intro-logo .front {
+    width: 69px;
+    height: 69px;
+    top: 8px;
+  }
+}
+@media (max-width: 1400px) {
+  .tokenomics .token__info {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1350px) {
+  .roadmap .step__content {
+    width: 470px;
+    margin-left: auto;
+  }
+  .roadmap .step__content-two {
+    margin: 41px auto 0 auto;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .roadmap__step-box {
+    position: unset;
+  }
+  .roadmap__step-logo {
+    width: 100%;
+  }
+  .roadmap .step-content.show {
+    justify-content: space-between;
+  }
+  .roadmap .road__box {
+    top: 360px;
+  }
+  .moo__token-card-desc {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .moo__token-card-title {
+    font-size: 30px;
+    line-height: 51px;
+  }
+  .moo__token-card {
+    padding: 130px 20px 41px 20px;
+    min-height: auto;
+    border-radius: 25px;
+  }
+  .moo__token-card-img.two {
+    width: 283px;
+    height: 283px;
+    top: -105px;
+  }
+  .moo__token-card-img.three {
+    width: 104%;
+    height: 265px;
+    top: -110px;
+    left: -13px;
+  }
+  .moo__token-card-img.one {
+    width: 320px;
+    height: 325px;
+    top: -93px;
+  }
+  .moo__token-cards {
+    margin: 0 -30px;
+  }
+  .moo__token-cards .card__line-1 {
+    width: 249px;
+    height: 84px;
+    bottom: 55px;
+    left: 188px;
+  }
+  .moo__token-card-number {
+    width: 39px;
+    height: 39px;
+    font-size: 20px;
+    bottom: -20px;
+  }
+  .moo__token-cards .card__line-2 {
+    width: 247px;
+    height: 84px;
+    right: 188px;
+    bottom: 55px;
+  }
+  .roadmap {
+    padding-bottom: 530px;
+  }
+  .moo__token .sub__title {
+    margin: 6px auto 119px auto;
+  }
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+  .footer__right {
+    width: 100%;
+    padding-right: 0;
+  }
+  .footer .flex__box {
+    justify-content: space-between;
+    padding-right: 163px;
+  }
+  .footer__top-arrow {
+    top: 72px;
+    right: 35px;
+  }
+  .footer__logo {
+    width: 262px;
+    height: 254px;
+  }
+  .footer .copyright {
+    position: absolute;
+    bottom: 32px;
+    line-height: 25px;
+    font-size: 12px;
+    left: 38px;
+  }
+}
+@media (max-width: 1300px) {
+  .about__slider-title {
+    font-size: 30px;
+  }
+  .faq .question-3 {
+    top: 110px;
+    right: 139px;
+    width: 77px;
+  }
+  .faq .question-1 {
+    top: 155px;
+    left: 103px;
+    width: 91px;
+  }
+  .faq .question-2 {
+    top: 265px;
+    left: 98px;
+    width: 63px;
+  }
+  .about__slider-desc {
+    font-size: 16px;
+    line-height: 21px;
+    max-width: 219px;
+  }
+
+  .tokenomics .token__info {
+    flex-direction: column-reverse;
+  }
+  .tokenomics .token__info .hat__img-2,
+  .tokenomics .token__info .hat__img {
+    right: -98px;
+  }
+  .tokenomics .token__info::before {
+    width: 100%;
+    left: 0;
+    transform: none;
+    height: 94%;
+  }
+  .tokenomics .token__info-left-title {
+    text-align: center;
+    margin: 100px auto 15px auto;
+  }
+  .tokenomics .token__info::after {
+    width: calc(100% - 34px);
+  }
+  .tokenomics .token__info {
+    max-width: 100%;
+    padding-top: 37px;
+    margin: 0 auto;
+  }
+  .tokenomics .token__info-right .cards {
+    padding: 0 16px;
+    gap: 21px 13px;
+  }
+  .tokenomics .token__info-left-box {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    width: calc(100% - 60px);
+    padding: 38px 47px 38px 8px;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .tokenomics .token__info-left-box-img {
+    max-width: 379px;
+    height: 352px;
+    object-fit: contain;
+  }
+  .tokenomics .token__info .token__list {
+    margin: 0 0 6px 0;
+  }
+  .tokenomics .token__info-left .arrow__img {
+    top: 122px;
+  }
+  .tokenomics .moo__moon-img {
+    width: 384px;
+    height: 343px;
+  }
+  .tokenomics .moo__moon-box-content {
+    width: 205px;
+    height: 164px;
+    p {
+      font-size: 30px;
+      width: 130px;
+    }
+  }
+  .tokenomics .moo__moon {
+    max-width: 887px;
+    margin: 40px auto 0 auto;
+  }
+  .tokenomics .moo__moon .moon__box img {
+    width: 115px;
+    height: 115px;
+  }
+  .tokenomics .moo__moon .moon__box .hashtag {
+    font-size: 25px;
+    margin-top: 100px;
+  }
+  .staking .moo__army .coin__group {
+    height: 280px;
+    width: 688px;
+  }
+  .staking .moo__army {
+    background-size: 1116px 417px;
+  }
+  .staking .moo__army .arrow__img {
+    width: 180px;
+    height: 221px;
+  }
+  .staking .moo__army .btns {
+    margin-top: 57px;
+  }
+  .faq__container {
+    flex-direction: column-reverse;
+  }
+  .faq__img-box {
+    position: unset;
+    height: auto;
+    width: 586px;
+  }
+  .faq .accordions {
+    max-width: 730px;
+    margin-top: -130px;
+  }
+  .faq .accordion__content {
+    width: 100%;
+    padding: 24px 100px;
+  }
+  .faq .accordion__btn {
+    width: 69px;
+    height: 60px;
+  }
+  .faq .accordion__header h3 {
+    height: 60px;
+    font-size: 25px;
+  }
+  .faq .question__coin p {
+    font-size: 20px;
+    width: 210px;
+    height: 60px;
+  }
+  .faq .question__coin {
+    margin-top: 10px;
+  }
+  .faq__container {
+    margin-top: 40px;
+  }
+  .social__media-sec {
+    margin: 0 35px;
+  }
+  .staking .stakes__cards {
+    flex-wrap: wrap;
+    margin-top: 70px;
+    row-gap: 55px;
+  }
+  .staking .stake__card {
+    flex: none;
+    &-img {
+      width: 100%;
+      object-fit: unset;
+    }
+  }
+}
+@media (max-width: 1250px) {
+  .intro__container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .intro__right-parent {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1200px) {
+  .referral__levels-img-box .but__token-btn {
+    font-size: 27px;
+    width: 239px;
+    height: 63px;
+  }
+  .referral__levels .swiper-slide:nth-child(2) .referral__levels-img-box {
+    transform: translateX(52px);
+  }
+  .referral__levels .swiper-slide:nth-child(3) .referral__levels-img-box {
+    transform: translateX(101px);
+  }
+  .referral__levels .swiper-slide:nth-child(4) .referral__levels-img-box {
+    transform: translateX(150px);
+  }
+  .referral__levels .swiper-slide:nth-child(5) .referral__levels-img-box {
+    transform: translateX(200px);
+  }
+  .referral__levels .swiper-slide:nth-child(6) .referral__levels-img-box {
+    transform: translateX(255px);
+  }
+  .referral__levels .swiper-slide:nth-child(7) .referral__levels-img-box {
+    transform: translateX(308px);
+  }
+  .referral__levels-img-box .swiper__img {
+    width: 580px;
+  }
+}
+@media (max-width: 1024px) {
+  .about__boxes {
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    z-index: 10;
+    gap: 33px;
+    margin-top: 168px;
+  }
+  .about .left__box .back__chain {
+    position: absolute;
+    top: 256px;
+    left: -49px;
+    width: 49px;
+    height: 100px;
+  }
+  .about .left__box {
+    min-height: 495px;
+  }
+  .about__box {
+    gap: 30px;
+  }
+  .about .right__box {
+    text-align: center;
+    margin-left: 39px;
+  }
+  .about__box .box__border.media__block {
+    display: block;
+  }
+  .about .front__chain {
+    width: 804px;
+    height: 229px;
+    left: -64px;
+    top: 339px;
+  }
+  .about .moo__soldier-box .moo__soldier-img {
+    width: 345px;
+    height: 542px;
+  }
+  .about .left__box .moo__soldier {
+    width: 226px;
+    height: 226px;
+    top: -190px;
+  }
+  .about .moo__soldier-box .moo__soldier-content {
+    font-size: 18px;
+    width: 186px;
+    padding: 17px 5px;
+  }
+  .about .moo__soldier-box {
+    right: -103px;
+    z-index: 10;
+    top: -143px;
+  }
+  .about .sub__title {
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 753px;
+  }
+  .about .left__box .midle__chain {
+    display: none;
+  }
+  .about__slider {
+    padding-top: 106px;
+  }
+  .about {
+    padding-top: 0;
+  }
+  .earn {
+    // padding-bottom: 99px;
+  }
+  .about__slider-box {
+    height: 273px;
+  }
+  .about__slider .about__shadow {
+    width: 900px;
+    height: 844px;
+  }
+  .about {
+    padding-bottom: 112px;
+  }
+  .roadmap .step__content-desc {
+    font-size: 16px;
+    line-height: 33px;
+  }
+  .roadmap__step-logo .step__img {
+    width: 334px;
+    height: 285px;
+  }
+
+  .roadmap__step-logo .flash__img {
+    width: 270px;
+    height: 162px;
+    left: 70px;
+  }
+  .roadmap .step-content {
+    padding-bottom: 160px;
+  }
+  .roadmap .road__box {
+    width: 443px;
+    height: 184px;
+  }
+  .roadmap .road__box .number__img {
+    &.one {
+      width: 52px;
+      height: 94px;
+      bottom: 33px;
+      left: 80px;
+    }
+    &.two {
+      width: 49px;
+      height: 78px;
+      bottom: 50px;
+      left: 150px;
+    }
+    &.three {
+      width: 37px;
+      height: 62px;
+      bottom: 62px;
+      left: 237px;
+    }
+    &.four {
+      width: 18px;
+      height: 45px;
+      bottom: 76px;
+      left: 330px;
+    }
+  }
+  .roadmap .moo__coin-right {
+    width: 296px;
+    height: 171px;
+    right: -107px;
+  }
+  .roadmap .frog__moo-img {
+    width: 149px;
+    height: 149px;
+  }
+  .roadmap .frog__moo .desc {
+    padding: 15px;
+    width: 200px;
+    font-size: 14px;
+  }
+  .tokenomics__banner-img {
+    width: 1226px;
+    height: 939px;
+    top: -100px;
+  }
+  .tokenomics__banner-info {
+    width: 389px;
+    font-size: 18px;
+    padding: 1px 28px;
+    height: 49px;
+    left: 47px;
+    top: 105px;
+  }
+  .tokenomics {
+    padding-top: 98px;
+  }
+  .tokenomics__sub-title {
+    font-size: 20px;
+    line-height: 29px;
+    max-width: 775px;
+  }
+  .tokenomics__banner {
+    height: 685px;
+  }
+
+  .tokenomics .moo__moon .moon__box {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .tokenomics .moo__moon {
+    position: relative;
+  }
+  .tokenomics .moo__moon .moon__box .hashtag {
+    display: block;
+  }
+  .staking .stove__box .stove__img {
+    width: 1024px;
+  }
+  .staking .recipe {
+    height: 577px;
+  }
+  .staking .stove__btns .red__btn {
+    font-size: 22px;
+    width: 184px;
+    height: 52px;
+  }
+  .staking .stove__btns .rewards__btn {
+    width: 143px;
+    right: 9px;
+    height: 52px;
+    font-size: 22px;
+    top: -87%;
+  }
+  .staking .recipe__boxes {
+    padding: 0 50px;
+  }
+  .staking .recipe__box {
+    gap: 32px;
+  }
+  .modal .connect__wallet-btn {
+    width: 342px;
+    height: 59px;
+  }
+}
+@media (max-width: 960px) {
+  .staking .steik__two {
+    width: 297px;
+    height: 318px;
+    right: -203px;
+    top: 519px;
+  }
+  .leaderboards__table-banner-swiper-two .scroller__inner {
+    padding-top: 3px;
+  }
+  #referral-leaders .scroller__inner {
+    .slide img {
+      width: 25px;
+    }
+  }
+  .scroller__inner {
+    margin: 0;
+  }
+  .staking .steik__one {
+    width: 150px;
+    height: 160px;
+    left: -90px;
+    top: 315px;
+  }
+  .sub__title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .referral__levels {
+    padding: 87px 0 128px 0;
+    .title__text {
+      max-width: 546px;
+      margin: 0 auto;
+    }
+  }
+  .referral__levels-title-box {
+    margin: 15px auto 84px auto;
+  }
+  .earn .leaderboards .title__text {
+    font-size: 50px;
+    margin-bottom: 9px;
+  }
+  .earn .leaderboards .sub__title {
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 728px;
+  }
+  .earn .leaderboards__table-header-box {
+    width: 233px;
+    height: 77px;
+    margin-top: -20px;
+  }
+  .earn .leaderboards__table-header {
+    gap: 14px;
+    // transform: translateY(-37px);
+  }
+  .earn .leaderboards__table-header-box span {
+    font-size: 22px;
+  }
+  .earn .leaderboards__table-header-box img {
+    width: 65px;
+    height: 65px;
+  }
+  .earn .leaderboards {
+    padding: 38px 36px 68px 36px;
+  }
+  .earn .leaderboards__table {
+    padding: 71px 35px 26px 35px;
+  }
+  .earn .leaderboards__table .banner__content,
+  .earn .leaderboards__table-banner-img {
+    border-radius: 20px;
+  }
+  .earn .leaderboards__table-banner-swiper h4 {
+    font-size: 12px;
+    line-height: 31px;
+  }
+  .earn .leaderboards__table-banner-swiper .swiper-slide {
+    gap: 0;
+  }
+  .earn .leaderboards__table-banner-swiper {
+    height: 45px;
+  }
+  .earn .leaderboards__table-banner-swiper img {
+    width: 39px;
+    height: 39px;
+  }
+  .earn .leaderboards__table .banner__content {
+    height: 256px;
+    padding: 34px 32px;
+  }
+  .earn .leaderboards__table .buy__moo-btn {
+    width: 173px;
+    height: 46px;
+    font-size: 18px;
+  }
+  .earn .leaderboards__table-banner-title {
+    font-size: 22px;
+    line-height: 21px;
+    width: 222px;
+  }
+  .earn .leaderboards__table-banner-swiper {
+    padding: 3px 0 5px 0;
+  }
+  .earn .leaderboards__table th {
+    padding: 4px 0 0 0;
+    font-size: 18px;
+  }
+  .earn .leaderboards__table tbody .rank__box {
+    width: 43px;
+    height: 49px;
+  }
+  .earn .leaderboards__table tbody .rank__box-number {
+    font-size: 18px;
+  }
+  .earn .leaderboards__table tbody .td__box {
+    font-size: 18px;
+    padding: 11px 0;
+  }
+  .earn .leaderboards__table .td__child-box img {
+    width: 42px;
+    height: 42px;
+  }
+  .earn .leaderboards__table tbody tr .td__btn {
+    font-size: 23px;
+    height: 45px;
+    width: 107px;
+    border-radius: 15px;
+    border-radius: 10px;
+  }
+  .earn .leaderboards__table tbody td {
+    height: 68px;
+  }
+  .earn .leaderboards__table tbody td:last-child .td__box {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .earn .leaderboards__table tbody td:first-child .td__box {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 26px;
+  }
+  .earn .leaderboards__table .pagination {
+    width: 47px;
+    height: 47px;
+    padding-top: 5px;
+    font-size: 22px;
+  }
+  .earn .leaderboards__table-pagination {
+    margin-top: 22px;
+  }
+  .pagination__btn svg {
+    width: 21px;
+    height: 18px;
+  }
+  .earn .connect__wallet-btn {
+    font-size: 20px;
+    width: 365px;
+    height: 63px;
+  }
+  .earn .connect__wallet-btn img {
+    width: 20px;
+    height: 16px;
+  }
+  .earn .leaderboards__logo-two {
+    height: 76px;
+    bottom: -39px;
+  }
+  .earn__title-box .title__content {
+    width: 627px;
+    height: 152px;
+    padding-top: 18px;
+  }
+  .earn__sub-title {
+    font-size: 35px;
+  }
+  .earn__info {
+    margin: 27px auto 47px auto;
+    width: 627px;
+  }
+  .earn .chain__img {
+    bottom: 55px;
+    height: 67%;
+  }
+  .earn__title-box .title__content {
+    width: 100%;
+    height: 152px;
+    background: url(../../images/chain-bg-3.webp) no-repeat;
+    background-position: top center;
+  }
+  .earn .right__chain {
+    top: -259px;
+    right: -131%;
+    height: 645px;
+  }
+  .earn .left__chain {
+    left: -149.5%;
+    top: -87px;
+    width: 1493px;
+    height: 614px;
+  }
+  .roadmap__title {
+    margin: 3px 0 0 0;
+  }
+  .roadmap .sub__title {
+    margin-bottom: 43px;
+    font-size: 18px;
+  }
+  .roadmap .step-content {
+    padding-bottom: 60px;
+  }
+  .roadmap .step__contents .step__paginations svg {
+    width: 30px;
+    height: 30px;
+  }
+  .roadmap .road__box {
+    left: -35px;
+  }
+  .roadmap .four__content .roadmap__step-logo {
+    margin-top: 68px;
+  }
+  .roadmap .step-content {
+    flex-direction: column;
+    gap: 0;
+    padding-bottom: 0;
+  }
+  .roadmap .step__content {
+    margin-top: 220px;
+  }
+  .roadmap .step__content {
+    width: 100%;
+    text-align: center;
+  }
+  .roadmap__step-logo {
+    margin: 0 auto;
+    text-align: center;
+    width: 334px;
+    height: 285px;
+  }
+  .roadmap .step__contents .step__paginations button {
+    width: 59px;
+    height: 59px;
+  }
+  .roadmap__step-logo .flash__img {
+    left: 70px;
+  }
+  .roadmap .road__box {
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .roadmap .frog__moo .desc {
+    bottom: -16px;
+    left: -164px;
+    font-size: 12px;
+  }
+  .moo__token .sub__title {
+    margin-bottom: 77px;
+  }
+  .moo__token .join__btn {
+    width: 232px;
+    height: 51px;
+    font-size: 20px;
+  }
+  .moo__token-cards {
+    padding-bottom: 71px;
+    row-gap: 82px;
+  }
+  .moo__token-cards .card__line-2,
+  .moo__token-cards .card__line-1 {
+    display: none;
+  }
+  .tokenomics .token__info-right-title {
+    margin-bottom: 16px;
+  }
+  .tokenomics .token__info-right .cards {
+    grid-template-columns: repeat(auto-fit, minmax(281px, 1fr));
+  }
+  .tokenomics .token__info-right .card__title {
+    font-size: 22px;
+    line-height: 51px;
+    margin-bottom: 2px;
+  }
+  .tokenomics .token__info-right .card__desc {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .tokenomics .token__info-right .card {
+    min-height: 238px;
+  }
+  .tokenomics .container {
+    max-width: 100%;
+    margin: 0 27px;
+  }
+  .tokenomics .token__info-right .limited__supply-img {
+    width: 545px;
+    height: 138px;
+  }
+  .tokenomics .token__info-left-box {
+    justify-content: space-between;
+  }
+  .tokenomics .token__info .token__list {
+    br {
+      display: none;
+    }
+    li:last-child {
+      margin-top: 20px;
+    }
+  }
+  .tokenomics .token__info-left-box .attention__text {
+    margin: 2px 0 13px 0;
+  }
+  .tokenomics .token__info-left-box .token__text {
+    padding: 25px 16px 20px 16px;
+    font-size: 15px;
+    line-height: 35px;
+    width: 313px;
+  }
+  .tokenomics .token__info-left-box .relative__box {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .tokenomics .token__info-left-box .copy__btn {
+    position: unset;
+    border-radius: 20px;
+    width: 81px;
+    height: 80px;
+  }
+  .tokenomics .token__info-left-box .token__details {
+    width: 246px;
+    height: 54px;
+    font-size: 22px;
+    margin: 0;
+  }
+  .staking .stake__card-status {
+    font-size: 18px;
+    width: 73px;
+    height: 54px;
+    right: -14px;
+    top: -17px;
+  }
+  .staking .stakes__cards {
+    gap: 25px 12px;
+    margin-top: 40px;
+  }
+  .staking .stakes__cards::before {
+    width: 911px;
+    height: 269px;
+  }
+  .staking .stake__card {
+    width: 224px;
+    height: 339px;
+  }
+  .staking .stake__card-content {
+    height: 64px;
+    bottom: 50px;
+  }
+  .staking .stake__card-content h4 {
+    font-size: 18px;
+  }
+  .staking .stake__card-content span {
+    font-size: 12px;
+  }
+  .staking .stake__card-img {
+    width: 194px;
+    height: 268px;
+  }
+  .staking .stake__info-bottom {
+    margin-top: 54px;
+    p {
+      font-size: 13px;
+      line-height: 19px;
+    }
+    img {
+      width: 25px;
+      height: 23px;
+    }
+  }
+  .staking .moo__army .buy__moo-btn,
+  .staking .moo__army .staking__btn.look {
+    width: 211px;
+    height: 61px;
+    font-size: 25px;
+  }
+  .staking .moo__army .arrow__img {
+    left: 80px;
+    bottom: 50px;
+  }
+  .staking .moo__army {
+    margin-top: 50px;
+  }
+  .staking {
+    padding-bottom: 91px;
+  }
+  .faq {
+    padding-bottom: 61px;
+  }
+  .faq .accordion__content {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .faq .accordion__content::before {
+    width: 69px;
+    height: 60px;
+  }
+  .faq .question__coin img {
+    width: 88px;
+    height: 88px;
+  }
+  .social__media-sec {
+    padding-top: 62px;
+    height: 579px;
+    background-position: center bottom;
+    .title__text {
+      font-size: 45px;
+      line-height: 51px;
+    }
+  }
+  .social__media-sec-box {
+    gap: 76px;
+    margin-top: 26px;
+  }
+  .social__media-sec-box a {
+    width: 160px;
+    height: 51px;
+    img {
+      width: 39px;
+      height: 39px;
+    }
+    font-size: 20px;
+    p {
+      span {
+        font-size: 9px;
+      }
+    }
+  }
+  .footer__left img {
+    width: 325px;
+    height: 325px;
+  }
+  .footer__left .moo__content {
+    width: 234px;
+    height: 44px;
+    font-size: 12px;
+    line-height: 51px;
+    white-space: nowrap;
+    padding: 0;
+    left: 325px;
+    top: 65px;
+  }
+  .footer__left img {
+    margin: 0 auto -58px auto;
+    display: block;
+  }
+  .tokenomics .moo__moon-box,
+  .tokenomics .moo__moon-box.right__box {
+    transform: translateX(0) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    margin: 0 8px;
+  }
+  .header .menu__btn {
+    margin-left: 0;
+  }
+  .header__wallet {
+    display: none;
+  }
+  .header__container {
+    margin: 0 22px 0 9px;
+  }
+  .roadmap .step {
+    width: 100%;
+  }
+  .roadmap .step__titles .step__title::before {
+    left: 0;
+    transform: none;
+  }
+  .roadmap .step__titles .step__title {
+    font-size: 30px;
+    line-height: 51px;
+  }
+  .roadmap .step__titles {
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .moo__token-cards {
+    margin: 0;
+  }
+  .tokenomics .token__info-left-box {
+    padding: 20px 10px 27px 10px;
+  }
+  .footer__top-arrow {
+    bottom: 27px;
+    top: unset;
+    right: 20px;
+  }
+  .footer .flex__box {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .title__text {
+    font-size: 35px;
+    line-height: 51px;
+  }
+  .relative__banner .modal-coint__right {
+    right: -64px;
+    top: 65px;
+    width: 118px;
+  }
+  .relative__banner .modal-coint__left {
+    width: 96px;
+    height: auto;
+    left: -58px;
+    z-index: 0;
+    top: -7px;
+  }
+  .tokenomics .token__info-left .arrow__img {
+    top: 80px;
+    height: 70px;
+    left: 34px;
+  }
+  .tokenomics .token__info-left-box-img {
+    margin-top: -48px;
+  }
+  .header-logo {
+    width: 116px;
+    height: 46px;
+    .img-2 {
+      width: 72px;
+      height: 24px;
+    }
+    .gif {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .header .menu__btn {
+    width: 34px;
+    height: 29px;
+    img {
+      width: 12px;
+      height: 11px;
+    }
+  }
+  .header {
+    padding: 14px 0 17px 0;
+  }
+  .intro__left {
+    margin-top: 0;
+  }
+  .intro__left .moo-group {
+    min-width: 400px;
+    width: 100%;
+    min-height: 400px;
+    height: unset;
+    top: -11px;
+  }
+  .intro__left-title {
+    font-size: 17px;
+    line-height: 31px;
+  }
+  .intro__left .ethereum-btn {
+    width: 92px;
+    height: 21px;
+    font-size: 10px;
+  }
+  .intro__left .skewed-box {
+    height: 21px;
+    width: 8px;
+  }
+  .intro__left-logo img {
+    width: 107px;
+    height: 73px;
+  }
+  .intro__left .skewed-boxes {
+    gap: 3px;
+  }
+  .intro__left .mooarmy-logo {
+    min-width: 462px;
+    width: 100%;
+    top: 71px;
+  }
+  .intro__left {
+    width: 100%;
+  }
+  .intro__left .right-raketa {
+    width: 154px;
+    height: 113px;
+    right: -63px;
+    top: 226px;
+  }
+  .intro__left .left-raketa {
+    width: 149px;
+    height: 133px;
+    top: 166px;
+    left: -35px;
+  }
+  .intro__container {
+    justify-content: start;
+    gap: 0;
+  }
+  .intro__left::before {
+    z-index: 1;
+    top: 0;
+  }
+  .intro__left-logo,
+  .intro__left .mooarmy-logo {
+    z-index: 2;
+  }
+  .intro__left .moo-group,
+  .intro__left .left-raketa {
+    z-index: 3;
+  }
+  .intro__left .right-raketa {
+    z-index: 4;
+  }
+  .earn .leaderboards .title__text {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .earn .leaderboards {
+    padding: 22px 0 49px 0;
+  }
+  .earn .leaderboards .sub__title {
+    font-size: 14px;
+    max-width: 324px;
+    line-height: 16px;
+  }
+  .earn .leaderboards__table-header-box {
+    width: 163px;
+    height: 54px;
+    img {
+      width: 38px;
+      height: 38px;
+    }
+  }
+  .earn .leaderboards__table-header-box span {
+    font-size: 15px;
+  }
+  .earn .leaderboards__table-header {
+    gap: 12px;
+    transform: translateY(66px);
+    margin-bottom: 0;
+    margin-top: -25px;
+  }
+  .earn .leaderboards__table {
+    padding: 51px 14px 25px 14px;
+    border-radius: 15px;
+    margin-top: 40px;
+  }
+  .earn .leaderboards__table .banner__content {
+    height: 398px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    background: url(../../images/leaderboards-banner-media.webp) no-repeat;
+    background-size: cover;
+    img {
+      object-fit: cover;
+      display: none;
+    }
+  }
+  #referral-leaders .banner__content {
+    background: url(../../images/leaderboards-banner-2-media.webp) no-repeat;
+    background-size: cover;
+  }
+  .earn .leaderboards__table-banner-title {
+    width: 100%;
+    text-align: center;
+  }
+  .earn .leaderboards__table-banner {
+    background: #14110e;
+    border-radius: 20px;
+  }
+  .earn .leaderboards__table th {
+    font-size: 13px;
+    height: fit-content;
+    line-height: 100%;
+    padding: 30px 3px 15px 0;
+  }
+  .earn .leaderboards__table tbody .td__box {
+    padding: 11px 3px;
+  }
+  .earn .leaderboards__table th:first-child {
+    padding-left: 0;
+  }
+  .earn .leaderboards__table tbody td:first-child .td__box {
+    padding-left: 13px;
+  }
+  .earn .leaderboards__table tbody .rank__box {
+    width: 31px;
+    height: 35px;
+  }
+  .earn .leaderboards__table tbody .rank__box-number,
+  .earn .leaderboards__table tbody tr.rank__one .td__box,
+  .earn .leaderboards__table tbody .td__box,
+  .earn .leaderboards__table .rank__number {
+    font-size: 13px;
+  }
+  .earn .leaderboards__table tbody tr.rank__one .td__box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .earn .leaderboards__table tbody td {
+    height: 55px;
+  }
+  .earn .leaderboards__table tbody tr .td__btn {
+    width: 81px;
+    height: 39px;
+    font-size: 18px;
+  }
+  .earn .leaderboards__table .rank__number {
+    margin-left: 0;
+  }
+  .earn .leaderboards__table tbody td:last-child .td__box {
+    padding-right: 8px;
+  }
+  .earn .leaderboards__table-pagination {
+    margin-top: 12px;
+  }
+  .earn .leaderboards__table .pagination {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    padding-top: 4px;
+  }
+  .earn .leaderboards__table-pagination {
+    gap: 13px;
+  }
+  .pagination__btn {
+    height: 15px;
+    svg {
+      width: 18px;
+      height: 15px;
+    }
+  }
+  .earn .connect__wallet-btn {
+    width: 304px;
+    height: 52px;
+    font-size: 18px;
+    margin-top: 30px;
+    gap: 9px;
+    span {
+      padding-top: 3px;
+    }
+  }
+  .earn .connect__wallet-btn img {
+    width: 16px;
+    height: 14px;
+  }
+  .earn .leaderboards__logo-two {
+    height: 57px;
+    bottom: -30px;
+  }
+  .earn .leaderboards {
+    max-width: calc(100% - 6px);
+  }
+  .earn {
+    padding-bottom: 140px;
+  }
+  .earn .chain__img {
+    bottom: -7px;
+  }
+  .earn .leaderboards .box__border {
+    width: 60px;
+  }
+  .earn .leaderboards .box__border.right {
+    top: -5px;
+    right: -3px;
+  }
+  .earn .leaderboards .box__border.left {
+    top: -5px;
+    left: -3px;
+  }
+  .earn .leaderboards .box__border.bottom-left {
+    bottom: -5px;
+    right: -3px;
+  }
+  .earn .leaderboards .box__border.bottom-right {
+    bottom: -5px;
+    left: -3px;
+  }
+  .earn__title-box .title__content {
+    background: url(../../images/chain-bg-4.webp) no-repeat;
+    background-position: top center;
+    height: 80px;
+    background-size: auto;
+  }
+  .earn__title-box {
+    width: 100%;
+  }
+  .earn .left__chain {
+    left: -883px;
+    top: -47px;
+    width: 1152px;
+    height: 325px;
+  }
+  .earn__sub-title {
+    font-size: 20px;
+    margin-top: -15px;
+    transform: translateY(-8px) !important;
+  }
+  .earn .right__chain {
+    top: -111px;
+    right: -835px;
+    width: 1100px;
+    height: 288px;
+  }
+  .referral__levels-img-box .swiper__img {
+    width: 317px;
+    height: 357px;
+  }
+  .referral__levels-img-box .but__token-btn {
+    width: 130px;
+    height: 34px;
+    font-size: 15px;
+    bottom: 30px;
+    left: 38px;
+  }
+  .referral__levels-img-box .paper__clamp {
+    width: 43px;
+    height: 48px;
+    top: -34px;
+    left: 107px;
+  }
+  .referral__levels-swiper-line {
+    height: 7px;
+    top: 20px;
+  }
+  .referral__levels-img-box .slide__count {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    left: 83px;
+    top: -27px;
+  }
+  .referral__levels-slider .swiper-box {
+    margin-top: 18px;
+    width: 1483px;
+    right: -7px;
+  }
+  .referral__levels-slider {
+    width: unset;
+  }
+  .referral__levels-swiper-line {
+    width: 1507px;
+  }
+  .referral__levels-title-box {
+    margin-bottom: 36px;
+    .sub__title {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+  .referral__levels-title-box img {
+    width: 27px;
+    height: 39px;
+  }
+  .referral__levels {
+    padding: 59px 0 60px 0;
+    background-size: contain;
+    background-position: bottom center;
+  }
+  .intro {
+    padding-bottom: 53px;
+  }
+  .about .left__box {
+    max-width: 100%;
+    padding: 53px 45px;
+    min-height: unset;
+  }
+  .about .right__box {
+    max-width: 100%;
+    padding: 19px 25px;
+    margin: 0 6px 0 8px;
+  }
+  .about__box .box__border {
+    width: 57px;
+    height: 43px;
+  }
+  .about__box .box__border.left,
+  .about__box .box__border.right {
+    top: -4px;
+  }
+  .about__box .box__border.right,
+  .about__box .box__border.bottom-right {
+    right: -16px;
+  }
+  .about__box .box__border.bottom-right,
+  .about__box .box__border.bottom-left {
+    bottom: -4px;
+  }
+  .about__box .box__border.left,
+  .about__box .box__border.bottom-left {
+    left: -16px;
+  }
+  .about__box {
+    border-radius: 20px;
+    gap: 20px;
+  }
+  .about .left__box .back__chain {
+    width: 27px;
+    height: 100px;
+    left: -27px;
+    top: unset;
+    bottom: 59px;
+  }
+  .about .front__chain {
+    width: 417px;
+    height: 127px;
+    bottom: -32px;
+    left: -34px;
+    top: unset;
+  }
+  .about {
+    .container {
+      margin: 0 15px 0 22px;
+    }
+  }
+  .about__box-desc {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .about .moo__soldier-box {
+    position: relative;
+    order: 1;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .about .right__box .join__btn {
+    bottom: -243px;
+  }
+  .about .moo__soldier-box .moo__soldier-img {
+    width: 255px;
+    height: 382px;
+  }
+  .about .moo__soldier-box .moo__soldier-content {
+    width: 131px;
+    height: 63px;
+    padding: 11px 3px;
+    font-size: 14px;
+    left: -30px;
+  }
+  .about__boxes {
+    gap: 22px;
+    margin-top: 85px;
+  }
+  .about .left__box .moo__soldier {
+    width: 125px;
+    height: 125px;
+    top: -105px;
+  }
+  .about__title {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 auto 13px auto;
+  }
+  .about .sub__title {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 327px;
+  }
+  .about__slider {
+    padding-top: 0;
+    margin-top: -71px;
+    z-index: 10;
+  }
+  .about__slider .about__shadow {
+    width: 900px;
+    height: 555px;
+    top: 63%;
+  }
+  .roadmap__title {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 13px 0;
+    width: 100%;
+  }
+  .roadmap .container {
+    margin: 0 15px;
+  }
+  .roadmap .step__titles {
+    justify-content: space-between !important;
+  }
+
+  .roadmap .step__titles .step__title {
+    font-size: 25px;
+    z-index: 100;
+  }
+  .roadmap .step__titles .step__title .step-dot {
+    background: #14110e;
+  }
+  .roadmap__step-logo::before {
+    top: 130%;
+  }
+  .roadmap .step__line {
+    width: 100% !important;
+    margin-top: 5px;
+  }
+  .roadmap .step__titles .step__title .step-dot {
+    bottom: -16px;
+  }
+  .roadmap .sub__title {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 26px;
+    width: 100%;
+  }
+  .roadmap .step__titles {
+    justify-content: start;
+    gap: 5px;
+  }
+  .roadmap .moo__coin-right {
+    width: 296px;
+    height: 128px;
+  }
+  .roadmap .step-content {
+    margin-top: 25px;
+  }
+  .roadmap .four__content .roadmap__step-logo {
+    margin-top: 0;
+  }
+  .roadmap .step__contents .step__paginations {
+    top: unset;
+    bottom: 0;
+  }
+  .roadmap__step-logo .flash__img {
+    left: 78px;
+  }
+  .roadmap .road__box {
+    width: 318px;
+    height: 132px;
+  }
+  .roadmap .road__box .number__img {
+    &.one {
+      width: 41px;
+      height: 68px;
+      left: 60px;
+      bottom: 28px;
+    }
+    &.two {
+      width: 35px;
+      height: 56px;
+      left: 116px;
+      bottom: 37px;
+    }
+    &.three {
+      width: 27px;
+      height: 44px;
+      left: 170px;
+      bottom: 44px;
+    }
+    &.four {
+      width: 13px;
+      height: 32px;
+      left: 238px;
+      bottom: 55px;
+    }
+  }
+  .roadmap .moo__coin-right {
+    top: 424px;
+    right: -120px;
+  }
+  .roadmap .step__content {
+    margin-top: 180px;
+  }
+  .roadmap .moo__coin-left {
+    display: none;
+  }
+  .roadmap .step__content-title {
+    font-size: 30px;
+  }
+  .roadmap .step__content-desc {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .roadmap .step__content-two {
+    width: 100%;
+    position: unset;
+    transform: none;
+    padding: 24px 30px 27px 30px;
+    border-radius: 25px;
+  }
+  .roadmap .step__content-two li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .roadmap .step__content-two li .img__box {
+    min-width: 24px;
+    max-width: 24px;
+  }
+  .roadmap__step-box .coin {
+    width: 122px;
+    height: 90px;
+    bottom: -29px;
+    right: -53px;
+  }
+  .roadmap .step__contents .step__paginations {
+    bottom: -82px;
+  }
+  .roadmap .step__content-two .join__btn {
+    width: 207px;
+    height: 50px;
+    position: unset;
+    font-size: 18px;
+    width: 189px;
+    transform: skew(-20deg) !important;
+    margin: 25px auto 0 auto;
+  }
+  .roadmap {
+    padding-bottom: 130px;
+  }
+  .about {
+    padding-bottom: 50px;
+  }
+  .roadmap .step__line {
+    width: 700px;
+  }
+  .roadmap .step__line {
+    width: 451px;
+    left: -1px;
+    margin-left: 0;
+  }
+  .moo__token-cards {
+    margin: 0 30px;
+  }
+  .moo__token .sub__title {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 293px;
+    margin-top: 3px;
+  }
+  .tokenomics__banner-info {
+    width: 157px;
+    height: 34px;
+    font-size: 10px;
+    line-height: 100%;
+    padding: 9px 20px 5px 12px;
+    left: 9px;
+    top: 42px;
+  }
+  .tokenomics {
+    padding-top: 95px;
+  }
+  .tokenomics__sub-title {
+    max-width: 321px;
+    font-size: 16px;
+    margin-top: 0;
+    line-height: 21px;
+  }
+  .tokenomics__banner-img {
+    width: 567px;
+    height: 434px;
+    top: -43px;
+  }
+  .tokenomics__banner {
+    max-width: 567px;
+    height: 434px;
+  }
+  .tokenomics .token__info-left-box {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .tokenomics .token__info-left-box {
+    .right__box {
+      width: 100%;
+    }
+  }
+  .tokenomics .token__info .token__list {
+    width: 100%;
+    padding: 0 21px 0 23px;
+  }
+  .tokenomics .token__info .token__list li {
+    justify-content: space-between;
+    display: flex;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .tokenomics .token__info-left-box .token__text {
+    width: 100%;
+    text-align: center;
+  }
+  .tokenomics .token__info-left-box .relative__box {
+    flex-wrap: nowrap;
+  }
+  .tokenomics .token__info-left-box .attention__text {
+    text-align: center;
+    margin: 2px 0 15px 0;
+  }
+  .tokenomics .token__info-left-box .token__details {
+    margin: 0 auto;
+  }
+  .tokenomics .container {
+    margin: 0 10px;
+  }
+  .tokenomics .token__info-right .card {
+    min-height: 246px;
+    border-radius: 30px;
+    &::before,
+    &::after {
+      border-radius: inherit;
+    }
+    &::after {
+      width: calc(100% - 20px);
+    }
+  }
+  .tokenomics .token__info-right-title {
+    font-size: 30px;
+    line-height: 28px;
+  }
+  .tokenomics .token__info-right .star__img {
+    width: 42px;
+    height: 39px;
+  }
+  .tokenomics .token__info-right .line {
+    height: 11px;
+    top: 34px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .tokenomics .token__info-right .card__title {
+    margin-top: 7px;
+  }
+  .tokenomics .token__info-left-title {
+    margin: 54px 0 5px 0;
+  }
+  .tokenomics .token__info-right .limited__supply-img {
+    width: 377px;
+    height: 95px;
+    bottom: -50px;
+  }
+  .tokenomics .token__info-left-box .copy__btn {
+    min-width: 67px;
+    height: 67px;
+  }
+  .tokenomics .token__info-left-box .token__text {
+    height: 67px;
+    padding: 15px 0;
+  }
+  .tokenomics .token__info-left-box .attention__text,
+  .tokenomics .token__info-left-box .token__text {
+    font-size: 12px;
+    line-height: 35px;
+  }
+  .tokenomics .moo__moon {
+    max-width: 335px;
+  }
+  .tokenomics .moo__moon-box-content {
+    top: 20px;
+    left: -20px;
+  }
+  .tokenomics .moo__moon .moon__box::before {
+    width: 400px;
+    height: 300px;
+    top: 20%;
+  }
+  .tokenomics .moo__moon-box.right__box .moo__moon-box-content {
+    right: 0;
+  }
+  .tokenomics .moo__moon-box-content {
+    width: 77px;
+    height: 62px;
+    p {
+      font-size: 13px;
+      width: 48px;
+      line-height: 10px;
+    }
+  }
+  .tokenomics .moo__moon-img {
+    width: 157px;
+    height: 157px;
+  }
+  .tokenomics .moo__moon .moon__box img {
+    width: 44px;
+    height: 44px;
+  }
+  .tokenomics .moo__moon .moon__box {
+    margin-top: 35px;
+  }
+  .tokenomics .moo__moon .moon__box .hashtag {
+    font-size: 15px;
+    margin-top: 36px;
+  }
+  .staking .stove__box .stove__img {
+    min-width: 585px;
+    width: 100%;
+  }
+  .staking .sub__title {
+    font-size: 14px;
+  }
+  .staking {
+    .title__text {
+      width: 352px;
+      line-height: 32px;
+    }
+  }
+  .staking .recipe__img {
+    width: 55px;
+    height: 59px;
+  }
+  .recipe .recipe__header {
+    min-width: 581px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+  }
+  .staking .recipe {
+    height: 338px;
+  }
+  .staking .stove__btns .red__btn {
+    width: 133px;
+    height: 38px;
+    font-size: 16px;
+  }
+  .staking .stove__btns .rewards__btn {
+    width: 103px;
+    height: 38px;
+    font-size: 16px;
+  }
+  .staking .stove__btns {
+    margin-top: 30px;
+  }
+  .staking .sub__title {
+    margin-bottom: 30px;
+  }
+  .staking {
+    padding-top: 100px;
+  }
+  .staking .stake__card {
+    width: 166px;
+    height: 250px;
+  }
+  .staking .stake__card-img {
+    width: 143px;
+    height: 198px;
+  }
+  .staking .stake__card-content {
+    height: 47px;
+    bottom: 37px;
+    padding: 10px 0;
+    gap: 0;
+    h4 {
+      font-size: 14px;
+    }
+    span {
+      font-size: 9px;
+    }
+  }
+  .staking .stake__info-bottom {
+    flex-direction: column;
+    margin: 34px 32px 0 32px;
+    gap: 20px;
+    img:last-child {
+      display: none;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .staking .moo__army .arrow__img {
+    left: 2px;
+    width: 86px;
+    height: 58px;
+    bottom: 68px;
+  }
+  .staking .moo__army .coin__group {
+    width: 331px;
+    height: 134px;
+  }
+  .staking .moo__army {
+    background-size: 538px 201px;
+    padding-top: 30px;
+  }
+  .staking .moo__army .btns {
+    margin-top: 43px;
+  }
+  .staking .moo__army .buy__moo-btn,
+  .staking .moo__army .staking__btn.look {
+    width: 154px;
+    height: 44px;
+    font-size: 18px;
+  }
+  .staking .moo__army-content {
+    max-width: 538px;
+  }
+  .staking {
+    padding-bottom: 60px;
+  }
+  .faq .accordions {
+    max-width: 100%;
+  }
+  .faq__container {
+    margin: 0 11px;
+  }
+  .faq .accordion__content {
+    width: 100%;
+    transform: none;
+    border-radius: 15px;
+    padding: 33px 27px;
+    background: #70745a;
+    font-size: 13px;
+    &::before {
+      width: 40px;
+      height: 40px;
+      border-top-right-radius: inherit;
+    }
+    p {
+      transform: none;
+      z-index: 10;
+      position: relative;
+    }
+  }
+  .faq .accordions {
+    gap: 5px;
+    margin-top: -42px;
+  }
+  .faq .title__text {
+    font-size: 36px;
+  }
+  .faq .accordion__header h3 {
+    height: 43px;
+    font-size: 15px;
+    padding: 0 30px;
+  }
+  .faq .accordion__btn {
+    min-width: 65px;
+    max-width: 65px;
+    height: 43px;
+    img {
+      width: 22px;
+      height: 22px;
+    }
+  }
+  .faq {
+    padding-bottom: 32px;
+  }
+  .faq .question__coin img {
+    width: 80px;
+    height: 80px;
+  }
+  .faq .question__coin p {
+    font-size: 15px;
+    width: 195px;
+  }
+  .faq__img-box {
+    width: 402px;
+    margin-right: 29px;
+    margin-top: -30px;
+  }
+  .social__media-sec .title__text {
+    font-size: 35px;
+    line-height: 31px;
+  }
+  .social__media-sec {
+    margin: 0 12px;
+    padding-top: 54px;
+    border-radius: 25px;
+    height: 478px;
+    background: url(../../images/social-media-bg-media.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .social__media-sec-box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .footer__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .footer__content ul {
+    width: 100%;
+    padding: 0 20px;
+    gap: 10px;
+    justify-content: space-between;
+    a {
+      font-size: 12px;
+      line-height: 25px;
+    }
+  }
+  .footer__content {
+    width: 100%;
+    max-width: 100%;
+  }
+  .footer {
+    margin-top: 34px;
+  }
+  .footer__content p {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 25px;
+  }
+  .footer__content p,
+  .footer__content h4 {
+    width: 220px;
+    margin-right: 16px;
+    margin-left: auto;
+  }
+  .footer__logo {
+    margin-top: -15px;
+    width: 150px;
+    height: 150px;
+    left: -18px;
+  }
+  .footer__content h4 {
+    font-size: 20px;
+  }
+  .footer__top-arrow {
+    width: 50px;
+    height: 50px;
+  }
+  .footer__left {
+    width: 336px;
+    margin-left: -150px;
+  }
+  .footer {
+    &::before {
+      display: none;
+    }
+  }
+  .footer__left img {
+    width: 336px;
+    height: 336px;
+  }
+  .footer .copyright {
+    font-size: 10px;
+    line-height: 14px;
+    width: 101px;
+    margin-left: 160px;
+  }
+  .footer__left .moo__content {
+    font-size: 12px;
+    width: 234px;
+    height: 44px;
+    left: 192px;
+  }
+  .tokenomics .token__info::after {
+    width: calc(100% - 28px);
+    border-radius: 20px;
+    top: -10px;
+  }
+  .tokenomics .token__info-right-title {
+    margin: 0 31px 21px 31px;
+  }
+  .tokenomics .token__info::before {
+    border-radius: 20px;
+  }
+  .referral__levels .title__text {
+    line-height: 35px;
+  }
+  .tokenomics__banner {
+    height: 343px;
+  }
+  .intro .intro-logo .back {
+    width: 107px;
+    height: 73px;
+  }
+  .intro .intro-logo .front {
+    width: 44px;
+    height: 44px;
+    top: 8px;
+  }
+  .staking .steik__one {
+    width: 66px;
+    height: 71px;
+    left: -27px;
+    top: 250px;
+    filter: blur(2px);
+  }
+  .staking .steik__two {
+    width: 151px;
+    height: 162px;
+    right: -70px;
+    top: 471px;
+  }
+  .staking .stakes__cards::before {
+    height: 115px;
+  }
+  .earn .btn__box {
+    gap: 7px;
+  }
+  .earn .leaderboards__table th {
+    &:nth-child(2) {
+      text-align: center;
+    }
+    &:nth-child(4) {
+      text-align: center;
+    }
+  }
+  .earn .leaderboards__table tbody td {
+    &:nth-child(3) {
+      & > div {
+        justify-content: center;
+      }
+    }
+  }
+
+  .modal .top__imgs img {
+    height: 75px;
+  }
+  .modal .top__imgs .img__2 {
+    transform: translateX(-15px);
+  }
+  .modal .top__imgs .img__1 {
+    transform: translateX(15px);
+  }
+  .modal .top__imgs {
+    top: 32px;
+  }
+  .intro__container .question-cion:hover .tooltip {
+    right: 10px;
+    left: unset;
+  }
+  .leaderboards {
+    #top-holders {
+      .td__box,
+      th {
+        font-size: 15px;
+      }
+      th {
+        text-align: center;
+      }
+    }
+  }
+  .earn .leaderboards__table tbody .td__box,
+  .earn .leaderboards__table tbody tr.rank__one .td__box {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .rank__tr {
+    td {
+      padding-bottom: 0;
+    }
+  }
+  .modal .close__modal {
+    top: -40px;
+    right: 11px;
+    img {
+      width: 17px;
+      height: 17px;
+    }
+  }
+  .header__language-box {
+    width: 32px;
+    height: 29px;
+    font-size: 10px;
+  }
+  .header__right {
+    gap: 14px;
+  }
+  .header .nav .scroll-box {
+    margin-top: 85px;
+  }
+
+  .information__modal .modal__content {
+    padding: 30px 20px 34px 20px;
+  }
+  .information__modal .desc {
+    font-size: 12px;
+  }
+  .information__modal .title-modal {
+    font-size: 18px;
+    line-height: 51px;
+  }
+  .information__modal ul li {
+    font-size: 13px;
+  }
+  .information__modal ul {
+    margin-bottom: 18px;
+    gap: 15px;
+  }
+  .information__modal .banner {
+    padding: 7px 25px 15px 25px;
+    background-position: 100px 13px;
+    background-size: 228px 132px;
+    margin-bottom: 17px;
+  }
+  .modal .connect__wallet-btn {
+    height: 48px !important;
+    width: 279px !important;
+  }
+  .modal .relative__box {
+    padding-top: 14px;
+  }
+  .information__modal .footer-box .clear-btn {
+    padding: 14px 17px;
+    font-size: 13px;
+  }
+  .information__modal .footer-box span {
+    font-size: 12px;
+  }
+  .information__modal .bottom__text {
+    font-size: 9px;
+  }
+  .information__modal .banner .top h3 {
+    font-size: 20px;
+    line-height: 51px;
+  }
+  .information__modal .bottom h5 {
+    font-size: 18px;
+    line-height: 51px;
+  }
+  .information__modal .banner .top {
+    gap: 14px;
+  }
+  .faq .question-3 {
+    top: 94px;
+    right: 86px;
+    width: 52px;
+  }
+  .faq .question-1 {
+    top: 106px;
+    left: 72px;
+    width: 54px;
+  }
+  .faq .question-2 {
+    top: 185px;
+    left: 83px;
+    width: 39px;
+  }
+  .modal.referral__modal .modal__sub-title {
+    line-height: normal;
+  }
+  .modal .modal__title {
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  .modal.referral__modal .modal__sub-title {
+    margin-bottom: 37px !important;
+  }
+  .information__modal .desc {
+    margin-top: 8px;
+  }
+  .information__modal .title-modal {
+    line-height: normal;
+    margin: 15px 0 8px 0;
+  }
+  .information__modal .banner {
+    width: calc(100% + 20px);
+    margin-left: -10px;
+  }
+  .information__modal .bottom .flex-box img {
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+  }
+  .information__modal .footer-box .clear-btn {
+    width: 90px;
+    font-size: 12px;
+    padding: 0;
+    height: 30px;
+  }
+  .leaderboards #top-holders th {
+    &:last-child {
+      text-align: right;
+    }
+  }
+  .earn .leaderboards__table-header-box img {
+    width: 28px;
+    height: 28px;
+  }
+  .leaderboards #top-holders th:first-child {
+    text-align: left;
+    padding-left: 14px;
+  }
+  .earn .leaderboards__table th:first-child {
+    padding-left: 14px;
+  }
+  .leaderboards #top-holders .td__box,
+  .leaderboards #top-holders th {
+    font-size: 13px;
+  }
+  .about__slider .swiper-slide .chain__img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -67px;
+    width: 107px;
+    height: auto;
+    z-index: 3;
+  }
+  .tokenomics .token__info-left-box-img {
+    width: 396px;
+    max-width: 396px;
+  }
+  .tokenomics .token__info-left-box .attention__text,
+  .tokenomics .token__info-left-box .token__text {
+    font-size: 13px;
+  }
+  .about__slider .swiper-btns .next-btn,
+  .about__slider .swiper-btns .prev-btn {
+    width: 40px;
+    height: 40px;
+    img {
+      width: 20px;
+    }
+  }
+  .footer .copyright {
+    right: 80px;
+    left: unset;
+  }
+  .faq .question__coin .question__coin-bg {
+    width: 90px;
+    height: 90px;
+    img {
+      width: 65px;
+      height: 65px;
+    }
+  }
+  .footer__content a::before {
+    bottom: 5px;
+    height: 0.5;
+  }
+  .faq .question__coin {
+    margin: 10px auto 0 auto;
+    span {
+      text-transform: uppercase;
+    }
+  }
+  .header .logo-box {
+    gap: 6px;
+  }
+  .footer .flex__box {
+    padding-right: 0;
+  }
+  .intro .social__media-box:last-child > img {
+    width: 35px;
+    height: 35px;
+  }
+  .tokenomics .token__info .hat__img-2 {
+    top: -47px;
+    right: -34px;
+    height: 126px;
+  }
+}
+@media (max-width: 650px) {
+  .tokenomics .token__info-right .cards {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    padding: 10px 40px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .tokenomics .token__info-right .card {
+    min-width: 281px;
+    max-width: 281px;
+  }
+  .staking {
+    .title__text,
+    .sub__title {
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .intro__right-parent {
+    width: 360px;
+    margin-top: -200px;
+  }
+  .intro .social__media-box > img {
+    width: 25px;
+    height: 25px;
+  }
+  .intro .social__media-box .audit-logo {
+    width: 35px;
+    height: 33px;
+  }
+  .intro__right {
+    width: 100%;
+    padding: 16px 19px 28px 16px;
+    border-radius: 20px;
+  }
+  .intro__right .dynamite__text {
+    font-size: 15px;
+  }
+  .intro__right .dynamite__text::before {
+    width: 5px;
+    height: 5px;
+    left: -10px;
+  }
+  .intro__right .dynamite {
+    width: 101px;
+    height: 34px;
+    padding-right: 14px;
+  }
+  .intro__right .dynamite__clock {
+    margin-top: 5px;
+    margin-left: -3px;
+    img {
+      margin-left: -10px;
+      width: 60px;
+      margin-top: -3px;
+    }
+  }
+  .intro__right .round__text {
+    font-size: 10px;
+  }
+  .intro__right .listing-price {
+    padding: 10px 14px;
+    gap: 8px;
+    margin-right: 12px;
+  }
+  .intro__right .listing-price .percentage {
+    border-radius: 5px;
+    width: 49px;
+    height: 24px;
+    font-size: 10px;
+    top: 23px;
+    right: -12px;
+  }
+  .intro__right .listing-price__text {
+    font-size: 10px;
+  }
+  .intro__right .listing-price .price-value {
+    font-size: 12px;
+  }
+  .intro__right .listing-price {
+    margin-right: 0;
+  }
+  .intro__right-title {
+    font-size: 30px;
+    line-height: 100%;
+    margin: 24px 0 10px 0;
+  }
+  .intro .intro__left-bottom.media__block {
+    margin-top: 80px;
+  }
+  .earn .leaderboards__logo {
+    width: 221px;
+    height: 21px;
+    top: -15px;
+  }
+  .intro__right-time-boxes {
+    gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(67px, 1fr));
+  }
+  .intro__right-time-box h3 {
+    font-size: 35px;
+    line-height: 71%;
+    padding-top: 5px;
+  }
+  .intro__right-time-box span {
+    font-size: 9px;
+    margin-top: 3px;
+  }
+  .intro__right-time-box {
+    height: 56px;
+    border-radius: 12px;
+  }
+  .intro__right .total__raised-title {
+    font-size: 12px;
+    line-height: 100%;
+  }
+  .intro__right .total__raised {
+    margin: 17px 0 9px 0;
+  }
+  .intro__right .total__raised .price__progress-text {
+    font-size: 12px;
+  }
+  .intro__right .total__raised .price__progress {
+    height: 31px;
+    margin: 7px 0;
+  }
+  .intro__right .total__raised .price__title {
+    font-size: 12px;
+  }
+  .intro__right .total__raised-moo-img {
+    width: 60px;
+    height: 60px;
+    top: -17px;
+  }
+  .intro__right .payment__box {
+    padding: 9px 11px 7px 13px;
+    border-radius: 12px;
+  }
+  .intro__right .payment__box .max__box-right {
+    width: 70px;
+    height: 35px;
+    padding-top: 2px;
+    img {
+      width: 28px;
+      height: 28px;
+    }
+    span {
+      font-size: 14px;
+      margin-left: 1px;
+    }
+  }
+  .intro__right .payment__box-text {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .intro__right .payment__box .max-text {
+    font-size: 25px;
+  }
+  .intro__right .max-box {
+    height: 22px;
+    width: 32px;
+    font-size: 9px;
+  }
+  .intro__right .payment__box .select__payment-btn {
+    font-size: 12px;
+    height: 30px;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+  }
+  .intro__right .payment__box .select__payment-btn h3 {
+    font-size: 14px;
+  }
+  .intro__right .payment__box .select__payment-btn .img__box {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  .intro__right .payment__box .select__payment-btn .img__box .img__two {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+  }
+  .intro__right .arrow__down-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    top: 45px;
+    img {
+      width: 13px;
+      height: 14px;
+    }
+  }
+  .intro__right .buying__bonus-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .intro__right .buying__bonus-box {
+    width: 40px;
+    height: 66px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .intro__right .buying__bonus .bonus__prosent {
+    width: 36px;
+    height: 36px;
+    border-width: 1.5px;
+    top: 24px;
+  }
+  .intro__right .buying__bonus .bonus__prosent-price-text {
+    font-size: 9px;
+  }
+  .intro__right .buying__bonus .bonus__prosent-text {
+    font-size: 13px;
+  }
+  .intro__right .buying__bonus {
+    margin: 10px 0 15px 0;
+  }
+  .intro__right .connect__wallet-btn {
+    width: 198px;
+    height: 53px;
+    font-size: 18px;
+    img {
+      width: 17px;
+      height: 14px;
+    }
+  }
+  .intro .bulletin__board {
+    width: 177px;
+    height: 77px;
+    background-size: 100% 100%;
+    padding-top: 13px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .intro .bulletin__board-text {
+    font-size: 13px;
+  }
+  .intro .bulletin__boards {
+    gap: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -9px;
+  }
+  .intro__container .question-cion {
+    right: -9px;
+    img {
+      width: 30px;
+      height: 62px;
+    }
+  }
+  .intro__container .sale-bg {
+    width: 56px;
+    height: 56px;
+    bottom: 66.9px;
+    right: -24px;
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .intro {
+    background-size: 100% 23%;
+  }
+  .intro .white__paper-img {
+    width: 206px;
+    margin-bottom: 30px;
+    background-size: 100% 100%;
+  }
+  .intro .white__paper-img .white-paper-1 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100px;
+    height: auto;
+  }
+  .intro .white__paper-img .uq {
+    right: -24px;
+    bottom: -2px;
+    height: 53px;
+  }
+  .intro .social__media-box {
+    width: 56px;
+    height: 56px;
+  }
+  .intro .social__media-box .social__media-img {
+    width: 25px;
+    height: 25px;
+    img {
+      width: 12px;
+    }
+  }
+  .intro .social__media-offer {
+    width: 61px;
+    height: 15px;
+    font-size: 12px;
+  }
+  .intro .social__media-box > img {
+    width: 25px;
+    height: 25px;
+  }
+  .intro .social__media {
+    margin-top: -8px;
+    gap: 17px;
+  }
+  .future__listing-sub-title {
+    font-size: 20px;
+    line-height: 51px;
+    margin: -20px 0 8px 0;
+  }
+  .future__listing-swiper img {
+    height: 100%;
+    object-fit: contain;
+  }
+  .future__listing-swiper {
+    height: 65px;
+  }
+  .earn .left__chain,
+  .earn .right__chain {
+    display: none;
+  }
+  .earn__title-box .title__content {
+    background-size: 100% 100%;
+  }
+  .earn__info {
+    font-size: 14px;
+    line-height: 16px;
+    width: 293px;
+  }
+  .header .phase-dropdown {
+    width: fit-content;
+    min-width: 100%;
+    gap: 6px;
+  }
+  .about__slider-desc {
+    font-size: 13px;
+    line-height: 18px;
+    max-width: 207px;
+    font-weight: 400;
+  }
+  .about__slider-box {
+    height: 198px;
+  }
+  .about__slider-title {
+    font-size: 25px;
+  }
+  .earn #referral-leaders .leaderboards__table-banner-swiper img {
+    width: 26px;
+    height: 23px;
+  }
+  .earn .btn__box {
+    img {
+      width: 14px;
+      height: 12px;
+    }
+  }
+  .modal__content {
+    max-width: 352px;
+    height: 531px;
+    padding: 40px 36px;
+    background-size: 100% 226px;
+  }
+  .modal__title {
+    font-size: 30px;
+  }
+  .modal .select__btns {
+    margin: 0 auto;
+  }
+  .modal .select__btn {
+    width: 137px;
+    height: 45px;
+    font-size: 20px;
+    img {
+      width: 22px;
+      height: 22px;
+    }
+  }
+  .modal .mainnet span {
+    font-size: 20px;
+  }
+  .modal .coins__boxes {
+    margin-top: 0;
+  }
+  .modal .coins__box {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #746551;
+    gap: 12px;
+  }
+  .modal .coins__box .img__box {
+    width: 29px;
+    height: 29px;
+  }
+  .modal .coins__box .img__two {
+    width: 9px;
+    height: 9px;
+    right: -1px;
+  }
+  .modal .coins__box h3 {
+    font-size: 20px;
+    min-width: 42px;
+  }
+  .modal .coins__box h4 {
+    font-size: 10px;
+  }
+  .modal .top__imgs img {
+    height: 52px;
+  }
+  .modal .top__imgs .img__2 {
+    transform: translateX(-10px);
+  }
+  .modal .top__imgs .img__1 {
+    transform: translateX(10px);
+  }
+  .social__media-sec-box {
+    justify-content: center;
+  }
+  .modal .top__imgs {
+    top: 32px;
+  }
+  .header .gif {
+    width: 45px;
+    height: 45px;
+  }
+  .header .logo-box .top__text {
+    font-size: 26px;
+  }
+  .header .logo-box .bottom__text {
+    margin-top: -3px;
+    font-size: 12px;
+  }
+  .tokenomics .img-box .shadow__img {
+    width: 500px;
+  }
+  .modal.wallet__modal .modal__content {
+    background-position: -16px 100%;
+    padding-top: 30px;
+  }
+  .modal .visible__content {
+    max-width: 352px;
+  }
+  .modal.referral__modal .modal__sub-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .modal.referral__modal .modal__content {
+    padding: 20px 30px 27px 30px;
+  }
+  .modal.referral__modal ul .left__text,
+  .modal.referral__modal ul .list__text {
+    font-size: 13px;
+  }
+  .modal.referral__modal ul .upgrate__btn {
+    width: 96px;
+    height: 30px;
+    font-size: 7px;
+    border-radius: 10px;
+    img {
+      width: 12px;
+      height: 12px;
+    }
+  }
+  .modal.referral__modal ul .dollar {
+    width: 72px;
+    height: 56px;
+    top: -32px;
+  }
+  .modal.referral__modal ul .none {
+    padding: 3px 8px;
+  }
+  .modal.referral__modal .earn__text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .modal.referral__modal .desc {
+    font-size: 8px;
+  }
+  .modal.referral__modal .top__rate {
+    margin-top: 5px;
+  }
+  .modal.referral__modal .top__rate p {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .modal.referral__modal .copy__box {
+    padding: 9px 0 9px 16px;
+    margin-bottom: 13px;
+    border-radius: 10px;
+    span {
+      font-size: 8px;
+      width: 145px;
+    }
+  }
+
+  .modal.referral__modal .copy__btn-modal {
+    width: 71px;
+    font-size: 18px;
+    height: 110%;
+    border-radius: 10px;
+  }
+  .modal .connect__wallet-btn {
+    width: 253px;
+    height: 41px;
+    font-size: 18px;
+    margin-bottom: 14px;
+    img {
+      width: 18px;
+    }
+  }
+  .intro__right .total__raised-title span {
+    font-size: 10px;
+  }
+  .about .right__box .join__btn {
+    width: 210px;
+    height: 54px;
+    font-size: 21px;
+  }
+  .intro__right .total__raised-bottom-right {
+    gap: 4px;
+  }
+  .intro__right .total__raised-bottom-right img {
+    width: 8px;
+  }
+  .about__slider-box {
+    height: 226px;
+  }
+  .tokenomics .moo__moon-box,
+  .tokenomics .moo__moon-box.right__box {
+    margin-right: -20px;
+  }
+  .tokenomics .moo__moon .moon__box {
+    margin-left: 10px;
+  }
+  .staking {
+    padding-top: 50px;
+  }
+  .tokenomics .moo__moon .moon__box img {
+    width: 58px;
+    height: 58px;
+  }
+  .earn .leaderboards {
+    padding: 10px 0 49px 0;
+  }
+
+  .footer .footer-dot {
+    display: none;
+  }
+  .referal__modal .referral-text a {
+    margin-top: 6px;
+  }
+  .faq .question__coin .question__coin-bg {
+    width: 80px;
+    height: 80px;
+  }
+  .nav__win-item.win-bg {
+    transform: translateX(-20px);
+  }
+  .nav__win-item.win-bg::before {
+    left: 60px;
+  }
+  .nav__win-item.win-bg a {
+    margin-left: 0;
+  }
+  .intro__right .total__raised .fire__img.end__time {
+    display: block;
+    height: 61px;
+    width: auto;
+    top: -25px;
+  }
+}
+@media (max-width: 480px) {
+  #referral-leaders .banner__content {
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  .social__media-sec {
+    background: #2d2722 url(../../images/social__media-bg-2.webp);
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+  }
+  .social__media-sec-box {
+    margin-top: 20px;
+  }
+  .social__media-sec {
+    .title__text {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  .header .nav {
+    padding-bottom: 100px;
+  }
+  .header .nav .scroll-box {
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 425px) {
+  .tokenomics .token__info-right .cards {
+    margin-left: 22px;
+  }
+}
+@media (min-width: 480px) {
+  .tokenomics .token__info-right .cards {
+    margin-left: 0;
+  }
+}

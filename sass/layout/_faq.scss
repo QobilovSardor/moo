@@ -1,0 +1,170 @@
+@use '../components/button' as btn;
+@media (min-width: 1300px) {
+  .faq {
+    min-height: 1060px;
+    .accordions {
+      margin-top: 50px;
+    }
+  }
+}
+.faq {
+  padding-bottom: 97px;
+  &__container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1920px;
+    margin: 95px 112px 0 112px;
+  }
+  @media (min-width: 1921px) {
+    .faq__container {
+      margin: 95px auto 0 auto;
+    }
+  }
+  &__img-box {
+    width: 1142px;
+    height: 1100px;
+    position: absolute;
+    right: -115px;
+    top: -185px;
+    z-index: -1;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .accordions {
+    max-width: 932px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &__header {
+      display: flex;
+      gap: 10px;
+      h3 {
+        @include btn.skewed-button(#a0a580, 30px, 617px, 77px);
+        padding: 0 55px;
+        justify-content: start;
+      }
+    }
+    &__btn {
+      @include btn.skewed-button(#70745a, 30px, 87px, 77px);
+      img {
+        transition: all 0.2s linear;
+      }
+    }
+    &__content {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      padding: 31px 100px 35px 100px;
+      background: #a0a580;
+      transform: skew(-20deg);
+      width: 827px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 115px;
+        height: 77px;
+        background: #ebdd87;
+      }
+      p {
+        transform: skew(20deg);
+      }
+      a {
+        color: #fff;
+      }
+      span:last-child {
+        margin-bottom: 10px;
+      }
+    }
+    &.show {
+      .accordion__content {
+        display: block;
+      }
+      .accordion__btn {
+        img {
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+  .text-undetline {
+    text-decoration: underline;
+  }
+  .question__coin {
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+    .question__coin-bg {
+      width: 113px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 113px;
+      img {
+        width: 85px;
+        height: 85px;
+      }
+    }
+    p {
+      @include btn.skewed-button(#a0a580, 30px, 267px, 77px);
+      margin-left: -57px;
+      z-index: -1;
+      padding-left: 52px;
+      text-transform: none;
+    }
+  }
+  .question-1,
+  .question-2,
+  .question-3 {
+    position: absolute;
+    animation: floatUpDown 2s ease-in-out infinite alternate;
+  }
+  .question-1 {
+    top: 249px;
+    left: 302px;
+    width: 121px;
+    height: auto;
+  }
+  .question-2 {
+    top: 468px;
+    left: 239px;
+    width: 121px;
+    height: auto;
+  }
+  .question-3 {
+    top: 218px;
+    right: 271px;
+    width: 144px;
+    height: auto;
+  }
+  .relative {
+    position: relative;
+  }
+}
+
+.question__coin-bg {
+  background: url(../../images/green-coin.svg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.underline-text {
+  text-decoration: underline;
+}

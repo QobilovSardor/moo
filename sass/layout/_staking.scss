@@ -1,0 +1,372 @@
+@use '../components/button' as btn;
+
+.staking {
+  padding: 152px 0 136px 0;
+  position: relative;
+
+  .steik__one,
+  .steik__two {
+    position: absolute;
+  }
+
+  .steik__one {
+    top: 211px;
+    left: -115px;
+    width: 225px;
+    height: 241px;
+    z-index: 10;
+    filter: blur(4px);
+    animation: floatUpDown 4s ease-in-out infinite alternate;
+  }
+
+  .steik__two {
+    right: -460px;
+    top: 630px;
+    width: 714px;
+    height: 605px;
+    z-index: 10;
+    transform: rotate(-12.69deg);
+    filter: blur(4px);
+    animation: floatDownUp 4s ease-in-out infinite alternate;
+  }
+
+  .sub__title {
+    margin: 49px 0 72px 0;
+  }
+
+  .title__text {
+    .red__text {
+      color: #e22c33;
+    }
+  }
+
+  .stakes__cards {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+    position: relative;
+    z-index: 1;
+    max-width: 1843px;
+    margin: 0 auto;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 1100px;
+      height: 254px;
+      background: rgba(255, 57, 57, 0.6980392157);
+      filter: blur(300px);
+      z-index: -1;
+
+      // width: 144%;
+      // height: 170%;
+      // background: url(../../images/svet.webp) no-repeat;
+      // z-index: -1;
+      // background-size: 100% 100%;
+      // z-index: -1;
+    }
+  }
+
+  .stake__card {
+    position: relative;
+    background: url(../../images/stake__card-bg.webp) no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 56px 15px 54px 15px;
+    width: 346px;
+    height: 533px;
+    z-index: 1;
+    margin-top: 100px;
+
+    &-img {
+      width: 305px;
+      height: 422px;
+    }
+
+    &-content {
+      position: absolute;
+      left: 0;
+      bottom: 80px;
+      width: 100%;
+      text-align: center;
+      background: #fff;
+      z-index: 2;
+      color: #000;
+      padding: 22px 0;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      flex-direction: column;
+
+      h4 {
+        text-transform: uppercase;
+        font-size: 24px;
+      }
+
+      span {
+        font-family: 'Inter', sans-serif;
+      }
+    }
+
+    &-status {
+      position: absolute;
+      top: -28px;
+      right: 20px;
+      width: 115px;
+      height: 86px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .stake__info-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 95px;
+
+    p {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0%;
+      text-align: center;
+      max-width: 960px;
+      color: #7d756e;
+
+      span {
+        color: #fff;
+        display: inline;
+      }
+    }
+
+    .star__img {
+      animation: blink 1.5s infinite alternate;
+    }
+
+    @keyframes blink {
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .moo__army {
+    margin-top: 148px;
+    padding-top: 76px;
+    background: url(../../images/moo-army-bg.webp) no-repeat;
+    background-size: 1876px 701px;
+    text-align: center;
+    background-position: top center;
+    position: relative;
+    animation: fadeInBackground 1s ease-in-out forwards;
+
+    .coin__group {
+      width: 100%;
+      height: 471px;
+    }
+
+    &-content {
+      position: relative;
+      max-width: 1156px;
+      margin: 0 auto;
+    }
+
+    .arrow__img {
+      position: absolute;
+      left: 40px;
+      bottom: 83px;
+    }
+
+    .btns {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 130px;
+    }
+
+    .buy__moo-btn {
+      @include btn.skewed-button(#e72e36, 30px, 267px, 77px);
+    }
+
+    .staking__btn {
+      @include btn.skewed-button(#e72e36, 30px, 267px, 77px);
+
+      &.look {
+        @include btn.skewed-button(#585858, 30px, 267px, 77px);
+        color: #929292;
+        gap: 12px;
+      }
+      .look-btn {
+        transition: all 0.2s linear;
+      }
+    }
+  }
+
+  @keyframes fadeInBackground {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .moo__army-content {
+    animation: fadeInContent 1s ease-in-out 1s forwards;
+  }
+
+  @keyframes fadeInContent {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .coin__group {
+    animation: fadeInCoin 1s ease-in-out 1s forwards;
+  }
+
+  @keyframes fadeInCoin {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .arrow__img {
+    animation: fadeInArrow 1s ease-in-out 2s forwards;
+  }
+
+  @keyframes fadeInArrow {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .recipe {
+    height: 1030px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 120px;
+
+    &__line {
+      width: 100%;
+    }
+
+    &__img {
+      width: 181px;
+      height: 235px;
+    }
+
+    &__boxes {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      max-width: 1920px;
+      margin: -30px auto 0 auto;
+      padding: 0 140px;
+    }
+
+    &__box {
+      display: flex;
+      gap: 63px;
+    }
+  }
+
+  .stove__box {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    max-width: 2000px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+
+    .stove__img {
+      width: 1920px;
+      height: 1114px;
+      margin: 0 auto;
+      left: 50%;
+      position: relative;
+      transform: translateX(-50%);
+    }
+  }
+
+  .stove__btns {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    width: fit-content;
+
+    .red__btn {
+      @include btn.skewed-button(#e72e36, 30px, 267px, 77px);
+
+      &.disabled {
+        background: #585858;
+        color: #929292;
+      }
+      &:hover {
+        transform: skew(-20deg);
+      }
+    }
+
+    .rewards__btn {
+      @include btn.skewed-button(#3b3b3b, 30px, 207px, 77px);
+      color: #929292;
+      position: absolute;
+      right: 14px;
+      top: -90%;
+      z-index: -1;
+      transform: skew(-20deg) !important;
+    }
+  }
+}
+
+.vibrate {
+  animation: vibrate 0.5s ease-in-out infinite;
+}
+@keyframes vibrate {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+}

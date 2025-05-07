@@ -1,0 +1,132 @@
+.footer {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -650px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 631px;
+    height: 631px;
+    background: #a87848;
+    filter: blur(200px);
+    z-index: -1;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1632px;
+    margin: 0 auto;
+  }
+  &__left {
+    position: relative;
+    width: 593px;
+    margin-left: -150px;
+    img {
+      width: 593px;
+      height: 593px;
+      margin-bottom: -100px;
+    }
+    .moo__content {
+      position: absolute;
+      padding: 17px 38px 14px 45px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 51px;
+      letter-spacing: 0%;
+      text-align: center;
+      border-top-left-radius: 300px;
+      border-top-right-radius: 155px;
+      border-bottom-right-radius: 155px;
+      border-bottom-left-radius: 30px;
+      width: 427px;
+      height: 82px;
+      background: #443c34;
+      top: 146px;
+      right: -175px;
+      gap: 3px;
+      span {
+        color: #fff2b4;
+      }
+    }
+  }
+  .flex__box {
+    display: flex;
+    align-items: center;
+    gap: 89px;
+  }
+  &__logo {
+    width: 300px;
+    height: 300px;
+    margin-top: 85px;
+  }
+  &__content {
+    max-width: 637px;
+    h4 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-transform: uppercase;
+    }
+    p {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      color: #7d756e;
+      margin: 8px 0 40px 0;
+      span {
+        color: #fff2b4;
+      }
+    }
+    ul {
+      display: flex;
+      gap: 68px;
+    }
+    a {
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      color: #7d756e;
+      position: relative;
+
+      text-decoration: underline;
+      text-decoration-style: solid;
+      text-decoration-offset: 4px;
+      // text-decoration-thickness: 1px;
+      text-decoration-skip-ink: auto;
+
+      // &::before {
+      //   content: "";
+      //   position: absolute;
+      //   bottom: 0;
+      //   left: 0;
+      //   width: 100%;
+      //   height: 1px;
+      //   background: #7d756e;
+      // }
+    }
+  }
+  .copyright {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #5d5852;
+  }
+  &__top-arrow {
+    position: absolute;
+    bottom: 87px;
+    right: 80px;
+  }
+
+  .footer-dot {
+    display: inline;
+  }
+}
