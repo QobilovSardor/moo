@@ -853,7 +853,7 @@ template {
   color: #fff;
 }
 .modal.referral__modal .top__rate {
-  background: url(../../images/top-rate-bg.webp) no-repeat;
+  background: url(../../images/top-rate-bg.png) no-repeat;
   background-size: 100% 100%;
   padding: 24px 10px;
   width: 100%;
@@ -9493,7 +9493,7 @@ template {
     line-height: 10px;
   }
   .intro {
-    background-size: 100% 23%;
+    background-size: 100% 35%;
   }
   .intro .white__paper-img {
     width: 206px;
