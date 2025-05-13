@@ -422,6 +422,10 @@ template {
   display: none;
 }
 
+.modal-btn {
+  cursor: pointer;
+}
+
 .footer {
   position: relative;
   z-index: 1;
@@ -506,7 +510,7 @@ template {
   color: #7d756e;
   margin: 8px 0 40px 0;
 }
-.footer__content p span {
+.footer__content p a {
   color: #fff2b4;
 }
 .footer__content ul {
@@ -2372,12 +2376,21 @@ template {
   align-items: center;
   gap: 10px;
 }
-.intro__right .payment__box .max-text {
+.intro__right .payment__box .max-text__input {
+  width: 50px;
+}
+.intro__right .payment__box .max-text,
+.intro__right .payment__box .max-text__input {
   font-weight: 700;
   font-size: 35px;
   line-height: 100%;
   letter-spacing: 0%;
   text-transform: uppercase;
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: #fff;
+  outline: none;
 }
 .intro__right .payment__box .select__payment-btn {
   padding: 12px 18px;
@@ -2446,6 +2459,7 @@ template {
   justify-content: center;
   font-size: 16px;
   line-height: normal;
+  color: #fff;
 }
 .intro__right .arrow__down-btn {
   position: absolute;

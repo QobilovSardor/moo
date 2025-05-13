@@ -42,3 +42,6 @@
     transform: skew(#{$skew-angle * -1});
   }
 }
+.modal-btn {
+  cursor: pointer;
+}
