@@ -3276,16 +3276,16 @@ template {
   align-items: center;
   gap: 33px;
 }
-.earn .leaderboards__table .paginations {
+.earn .paginations {
   display: flex;
 }
-.earn .leaderboards__table .pagination__btn.disabled {
+.earn .pagination__btn.disabled {
   pointer-events: none;
 }
-.earn .leaderboards__table .pagination__btn.disabled svg path {
+.earn .pagination__btn.disabled svg path {
   stroke: #5f564d;
 }
-.earn .leaderboards__table .pagination {
+.earn .pagination {
   width: 73px;
   height: 73px;
   cursor: pointer;
@@ -3296,7 +3296,7 @@ template {
   line-height: 51px;
   letter-spacing: 0%;
 }
-.earn .leaderboards__table .pagination.active {
+.earn .pagination.active {
   background: url(../../images/social-bg.svg) no-repeat;
   background-size: 100% 100%;
 }

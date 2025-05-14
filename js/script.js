@@ -806,3 +806,173 @@ function getNext3DayCycleTarget() {
 // Set countdown to 59 minutes from now
 const countdownDate = new Date(new Date().getTime() + 59 * 60 * 1000); // 59 minutes from now
 startCountdown(countdownDate);
+
+
+// Данные для таблиц (пример)
+const topHoldersData = {
+  1: [
+    { rank: 1, wallet: "0x89****e663", purchased: "10.000.000", prize: "$10.000" },
+    { rank: 2, wallet: "0x89****e663", purchased: "10.000.000", prize: "$10.000" },
+    { rank: 3, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 4, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 5, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 5, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 7, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 8, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 9, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 10, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+  ],
+  2: [
+    { rank: 11, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 12, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 13, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 14, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 15, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 16, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 17, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 18, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 19, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 20, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+  ],
+  3: [
+    { rank: 21, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 22, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 23, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 24, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 25, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 26, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 27, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 28, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 29, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    { rank: 30, wallet: "0x89****e663", purchased: "10.000.000", prize: "$2.000" },
+    // ... до 30
+  ],
+};
+
+const referralLeadersData = {
+  1: [
+    { rank: 1, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$10.000" },
+    { rank: 2, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$10.000" },
+    { rank: 3, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$10.000" },
+    { rank: 4, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$10.000" },
+    { rank: 5, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$10.000" },
+    { rank: 6, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$10.000" },
+    { rank: 7, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$10.000" },
+    { rank: 8, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$10.000" },
+    { rank: 9, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$10.000" },
+    { rank: 10, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$10.000" },
+  ],
+  2: [
+    { rank: 11, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 12, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 13, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 14, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 15, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 16, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 17, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 18, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 19, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 20, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+  ],
+  3: [
+    { rank: 21, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 22, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 23, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 24, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 25, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 26, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 27, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 28, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 29, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+    { rank: 30, wallet: "0x89****e663", referrals: "777", earned: "$37,000.00", prize: "$2.000" },
+  ],
+};
+
+// Функция для рендеринга таблицы
+function renderTable(leaderboardId, page) {
+  const tbody = document.querySelector(`#${leaderboardId} tbody`);
+  const data = leaderboardId === "top-holders" ? topHoldersData[page] : referralLeadersData[page];
+  tbody.innerHTML = "";
+
+  data.forEach((item) => {
+    let rowClass = "rank__tr";
+    let rankHtml = `<span class="rank__number">#${item.rank}</span>`;
+
+    // Для 1–3 мест на первой странице
+    if (page === 1 && item.rank <= 3) {
+      rowClass = `rank__${["one", "two", "three"][item.rank - 1]}`;
+      rankHtml = `
+        <div class="rank__box">
+          <img class="rank__box-img" src="images/rank-${item.rank}.svg" alt="">
+          <span class="rank__box-number">${item.rank}</span>
+        </div>
+      `;
+    }
+
+    const rowHtml = `
+      <tr class="${rowClass}">
+        <td><div class="td__box">${rankHtml}</div></td>
+        <td><div class="td__box">${item.wallet}</div></td>
+        ${leaderboardId === "top-holders"
+        ? `
+              <td><div class="td__child-box td__box">
+                <img src="images/icons/moo-coin.webp" alt="">
+                <span>${item.purchased}</span>
+              </div></td>
+              <td><div class="td__box"><button class="td__btn">${item.prize}</button></div></td>
+            `
+        : `
+              <td><div class="td__child-box td__box"><span>${item.referrals}</span></div></td>
+              <td><div class="td__box"><span>${item.earned}</span></div></td>
+              <td><div class="td__box">
+                <div class="btn__box">
+                  <img src="images/icons/usdt.svg" alt="">
+                  <button class="td__btn">${item.prize}</button>
+                </div>
+              </div></td>
+            `
+      }
+      </tr>
+    `;
+    tbody.insertAdjacentHTML("beforeend", rowHtml);
+  });
+}
+
+// Обработка пагинации
+function setupPagination(leaderboardId) {
+  const paginationContainer = document.querySelector(`#${leaderboardId} .leaderboards__table-pagination`);
+  const pages = paginationContainer.querySelectorAll(".pagination");
+  const prevBtn = paginationContainer.querySelector(".prev");
+  const nextBtn = paginationContainer.querySelector(".next");
+
+  function updatePage(page) {
+    pages.forEach((p) => p.classList.remove("active"));
+    pages[page - 1].classList.add("active");
+    prevBtn.classList.toggle("disabled", page === 1);
+    nextBtn.classList.toggle("disabled", page === 3);
+    renderTable(leaderboardId, page);
+  }
+
+  pages.forEach((page) => {
+    page.addEventListener("click", () => {
+      const pageNum = parseInt(page.dataset.page);
+      updatePage(pageNum);
+    });
+  });
+
+  prevBtn.addEventListener("click", () => {
+    const currentPage = parseInt(paginationContainer.querySelector(".pagination.active").dataset.page);
+    if (currentPage > 1) updatePage(currentPage - 1);
+  });
+
+  nextBtn.addEventListener("click", () => {
+    const currentPage = parseInt(paginationContainer.querySelector(".pagination.active").dataset.page);
+    if (currentPage < 3) updatePage(currentPage + 1);
+  });
+}
+
+// Инициализация
+setupPagination("top-holders");
+setupPagination("referral-leaders");
+renderTable("top-holders", 1);
+renderTable("referral-leaders", 1);

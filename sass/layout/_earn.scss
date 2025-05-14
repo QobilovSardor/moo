@@ -411,39 +411,39 @@
         padding-bottom: 0;
       }
     }
-    &-pagination {
-      margin: 34px auto 0 auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 33px;
-    }
-    .paginations {
-      display: flex;
-    }
-    .pagination__btn {
-      &.disabled {
-        pointer-events: none;
-        svg path {
-          stroke: #5f564d;
-        }
+  }
+  .leaderboards__table-pagination {
+    margin: 34px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+  }
+  .paginations {
+    display: flex;
+  }
+  .pagination__btn {
+    &.disabled {
+      pointer-events: none;
+      svg path {
+        stroke: #5f564d;
       }
     }
-    .pagination {
-      width: 73px;
-      height: 73px;
-      cursor: pointer;
+  }
+  .pagination {
+    width: 73px;
+    height: 73px;
+    cursor: pointer;
 
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 40px;
-      line-height: 51px;
-      letter-spacing: 0%;
-      &.active {
-        background: url(../../images/social-bg.svg) no-repeat;
-        background-size: 100% 100%;
-      }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 51px;
+    letter-spacing: 0%;
+    &.active {
+      background: url(../../images/social-bg.svg) no-repeat;
+      background-size: 100% 100%;
     }
   }
   .connect__wallet-btn {
