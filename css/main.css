@@ -546,6 +546,11 @@ template {
   display: inline;
 }
 
+.footer__content p a {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .modal {
   position: fixed;
   top: 0;
@@ -6510,7 +6515,8 @@ template {
     z-index: 2;
     margin-top: 20px;
   }
-  .footer__content p {
+  .footer__content p,
+  .footer__content a {
     font-size: 14px;
     line-height: 20px;
   }
@@ -8903,7 +8909,8 @@ template {
   .footer {
     margin-top: 34px;
   }
-  .footer__content p {
+  .footer__content p,
+  .footer__content a {
     font-size: 10px;
     line-height: 14px;
     margin-bottom: 25px;

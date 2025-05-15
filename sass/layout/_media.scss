@@ -1005,7 +1005,8 @@
     z-index: 2;
     margin-top: 20px;
   }
-  .footer__content p {
+  .footer__content p,
+  .footer__content a {
     font-size: 14px;
     line-height: 20px;
   }
@@ -3436,7 +3437,8 @@
   .footer {
     margin-top: 34px;
   }
-  .footer__content p {
+  .footer__content p,
+  .footer__content a {
     font-size: 10px;
     line-height: 14px;
     margin-bottom: 25px;
