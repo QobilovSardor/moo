@@ -654,7 +654,7 @@ template {
   margin: 37px 0 34px 0;
 }
 .modal .select__btn {
-  background: url(../../images/box-bg.png) no-repeat;
+  background: url(../../images/box-bg.svg) no-repeat;
   background-size: 100% 100%;
   width: 256px;
   height: 84px;
@@ -2694,6 +2694,10 @@ template {
     transform: translateY(-5px);
   }
 }
+.intro__right .payment__box:first-child .payment__box-max {
+  gap: 0;
+}
+
 .future__listing-sub-title {
   font-weight: 700;
   font-size: 40px;
@@ -3018,7 +3022,7 @@ template {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../../images/box-bg.png) no-repeat;
+  background: url(../../images/box-bg.svg) no-repeat;
   background-size: 100% 100%;
   width: 356px;
   height: 118px;
@@ -9816,6 +9820,12 @@ template {
     height: 61px;
     width: auto;
     top: -25px;
+  }
+  .intro__right .payment__box .max-text__input {
+    width: 35px;
+  }
+  .intro__right .payment__box .max-text__input {
+    max-width: 95px;
   }
 }
 @media (max-width: 480px) {

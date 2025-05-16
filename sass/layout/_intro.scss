@@ -718,7 +718,7 @@
       }
       .max-text__input {
         width: 50px;
-        }
+      }
       .max-text,
       .max-text__input {
         font-weight: 700;
@@ -1007,5 +1007,11 @@
   }
   50% {
     transform: translateY(-5px);
+  }
+}
+
+.intro__right .payment__box:first-child {
+  .payment__box-max {
+    gap: 0;
   }
 }

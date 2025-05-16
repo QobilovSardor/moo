@@ -4369,6 +4369,12 @@
     width: auto;
     top: -25px;
   }
+  .intro__right .payment__box .max-text__input {
+    width: 35px;
+  }
+  .intro__right .payment__box .max-text__input{
+    max-width: 95px;
+  }
 }
 @media (max-width: 480px) {
   #referral-leaders .banner__content {
