@@ -971,7 +971,6 @@ function setupPagination(leaderboardId) {
   });
 }
 
-// Инициализация
 setupPagination("top-holders");
 setupPagination("referral-leaders");
 renderTable("top-holders", 1);
@@ -979,22 +978,25 @@ renderTable("referral-leaders", 1);
 
 const input = document.getElementById('dynamicInput');
 
-// Yashirin span element yaratamiz o'lchov uchun
-const span = document.createElement('span');
-span.style.visibility = 'hidden';
-span.style.position = 'absolute';
-span.style.whiteSpace = 'pre';
-span.style.fontSize = window.getComputedStyle(input).fontSize;
-document.body.appendChild(span);
+const canvas = document.createElement('canvas');
+const context = canvas.getContext('2d');
 
-// Funksiya: input qiymatiga qarab kenglikni o'zgartirish
-function adjustInputWidth() {
-  span.textContent = input.value || '0'; // bo‘sh bo‘lsa 0 ko‘rsat
-  input.style.width = span.offsetWidth + 10 + 'px'; // +20 — padding va margin uchun
+
+function getInputFont() {
+  const style = window.getComputedStyle(input);
+  return `${style.fontSize} ${style.fontFamily}`;
 }
 
-// Dastlab chaqirish
+
+function adjustInputWidth() {
+  context.font = getInputFont();
+  const text = input.value || '0';
+  const width = context.measureText(text).width;
+  input.style.width = (width + 10) + 'px';
+}
+
+
 adjustInputWidth();
 
-// Har safar yozilganda width yangilanadi
+
 input.addEventListener('input', adjustInputWidth);
